@@ -1,0 +1,127 @@
+# Hammer
+hammer-vlsi*.log
+output.json
+build/
+
+# ASM/Benchmarks
+*.bin
+*.hex
+*.dump
+*.elf
+asm_output
+bmark_output
+*testvectors.input
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+### SynopsysVCS ###
+# Waveform formats
+*.vcd
+*.vpd
+*.evcd
+*.fsdb
+
+# Default name of the simulation executable.  A different name can be
+# specified with this switch (the associated daidir database name is
+# also taken from here):  -o <path>/<filename>
+simv
+
+# Generated for Verilog and VHDL top configs
+simv.daidir/
+simv.db.dir/
+
+# Infrastructure necessary to co-simulate SystemC models with
+# Verilog/VHDL models.  An alternate directory may be specified with this
+# switch:  -Mdir=<directory_path>
+csrc/
+
+# Log file - the following switch allows to specify the file that will be
+# used to write all messages from simulation:  -l <filename>
+*.log
+
+# Coverage results (generated with urg) and database location.  The
+# following switch can also be used:  urg -dir <coverage_directory>.vdb
+simv.vdb/
+urgReport/
+
+# DVE and UCLI related files.
+DVEfiles/
+ucli.key
+
+# When the design is elaborated for DirectC, the following file is created
+# with declarations for C/C++ functions.
+vc_hdrs.h
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
