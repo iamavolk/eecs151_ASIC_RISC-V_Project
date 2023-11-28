@@ -35,8 +35,8 @@ vlsi.inputs.placement_constraints:
     y: 0
 
     # Floorplan dimensions
-    width: &FP_WIDTH 350
-    height: 400
+    width: &FP_WIDTH 1800
+    height: 1800
 
     # Modify the path of the SRAMs according to your design
     # Add more hardmacro placement constraints if your design
@@ -49,32 +49,32 @@ vlsi.inputs.placement_constraints:
     type: hardmacro
     x: 95
     y: 30
-    orientation: "my"
-    master: "SRAM1RW64x32"
+    orientation: "my90"
+    top_layer: M3
 
     #SRAM1RW64x32
   - path: "riscv_top/mem/dcache/Cache_Tag"
     type: hardmacro
     x: 250
     y: 30
-    orientation: "r0"
-    master: "SRAM1RW64x32"
+    orientation: "r90"
+    top_layer: M3
 
     #SRAM1RW256x128
   - path: "riscv_top/mem/icache/Cache_Data"
     type: hardmacro
     x: 50 
     y: 120
-    orientation: "my"
-    master: "SRAM1RW256x128"
+    orientation: "mx90"
+    top_layer: M3
 
     #SRAM1RW256x128
   - path: "riscv_top/mem/dcache/Cache_Data"
     type: hardmacro
     x: 250
     y: 120
-    orientation: "r0"
-    master: "SRAM1RW256x128"
+    orientation: "r270"
+    top_layer: M3
 
   - path: "riscv_top/place_obs_bottom"
     type: obstruction
@@ -89,35 +89,12 @@ vlsi.inputs.placement_constraints:
 vlsi.inputs.pin_mode: generated
 vlsi.inputs.pin.generate_mode: semi_auto
 vlsi.inputs.pin.assignments: [
-  {pins: "*", layers: ["M5", "M7"], side: "bottom"}
+  {pins: "*", layers: ["met4"], side: "bottom"}
 ]
 
 # Hammer will auto-generate a CPF for simple power designs; see hammer/src/hammer-vlsi/defaults.yml for more info
 vlsi.inputs.power_spec_mode: "auto"
 vlsi.inputs.power_spec_type: "cpf"
-
-par.power_straps_mode: generate
-par.generate_power_straps_method: by_tracks
-par.blockage_spacing: 2.0
-par.generate_power_straps_options:
-  by_tracks:
-    strap_layers:
-      - M3
-      - M4
-      - M5
-      - M6
-      - M7
-      - M8
-      - M9
-    pin_layers:
-      - M9
-    track_width: 7 # minimum allowed for M2 & M3
-    track_spacing: 0
-    track_spacing_M3: 1 # to avoid M2 shorts at higher density
-    track_start: 10
-    power_utilization: 0.25
-    power_utilization_M8: 1.0
-    power_utilization_M9: 1.0
 
 # Clock Concurrent Optimization for CTS
 par.innovus.use_cco: true
