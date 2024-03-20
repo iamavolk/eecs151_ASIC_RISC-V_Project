@@ -78,6 +78,15 @@ functs_itype = \
 functs_rtype = \
 {
     "ADD":     ("000", "0", lambda a,b: a+b, lambda a: a, lambda b: b),
+    "SUB":     ("000", "1", lambda a,b: sub(a,b), lambda a: a, lambda b: b),
+    "SLL":     ("001", "0", lambda a,b: a<<b, lambda a: a, lambda b: b&0x1f),
+    "SLT":     ("010", "0", lambda a,b: (lambda:0, lambda:1)[comp(a,b)](), lambda a: a, lambda b: sext(b&0x0fff)),
+    "SLTU":    ("011", "0", lambda a,b: (lambda:0, lambda:1)[a < b](), lambda a: a, lambda b: sext(b&0x0fff)),
+    "XOR":     ("100", "0", lambda a,b: a^b, lambda a: a, lambda b: b),
+    "SRL":     ("101", "0", lambda a,b: a>>b, lambda a: a, lambda b: b&0x1f),
+    "SRA":     ("101", "1", lambda a,b: sra(a,b), lambda a: a, lambda b: b&0x1f),
+    "OR":      ("110", "0", lambda a,b: a|b, lambda a: a, lambda b: b),
+    "AND":     ("111", "0", lambda a,b: a&b, lambda a: a, lambda b: b),
 }
 
 random.seed(os.urandom(32))

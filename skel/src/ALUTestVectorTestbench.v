@@ -32,7 +32,7 @@ module ALUTestVectorTestbench();
     wire [3:0] ALUop;
 
     // Task for checking output
-    task checkOutput;
+    task automatic checkOutput;
         input [6:0] opcode;
         input [2:0] funct;
         input add_rshift_type;
@@ -67,7 +67,8 @@ module ALUTestVectorTestbench();
     // //////////////////////////////////////////////////////////////
     localparam testcases = 26;
 
-    reg [106:0] testvector [0:testcases-1]; // Each testcase has 108 bits:
+    //reg [106:0] testvector [0:testcases-1]; // Each testcase has 108 bits:
+    reg [106:0] testvector [testcases-1]; // Each testcase has 108 bits:
     // 64 for A and B, 32 for REFout, 6 for
     // opcode, 6 for funct
 
@@ -78,7 +79,15 @@ module ALUTestVectorTestbench();
         $vcdpluson;
         $readmemb("../../tests/testvectors.input", testvector);
         for (i = 0; i < testcases; i = i + 1) begin
-            // TODO
+          REFout          = testvector[i][31:0];
+          B               = testvector[i][63:32];
+          A               = testvector[i][95:64];
+          add_rshift_type = testvector[i][96];
+          funct           = testvector[i][99:97];
+          opcode          = testvector[i][106:100];
+
+          #1;
+          checkOutput(opcode, funct, add_rshift_type);
         end
         $display("\n\nALL TESTS PASSED!");
         $vcdplusoff;

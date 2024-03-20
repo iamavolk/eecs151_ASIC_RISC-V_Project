@@ -3,7 +3,7 @@ simClockPeriod : &SIM_CLK_PERIOD "CLOCK_PERIOD=20.00"
 simOptions: &SIM_OPTIONS
   - "-notice"
   - "-line"
-  - "+lint=all,noVCDE,noONGS,noUI"
+  #- "+lint=all,noVCDE,noONGS,noUI"
   - "+warn=noTMR"
   - "-error=PCWM-L"
   - "+v2k"
@@ -32,8 +32,8 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/riscv_test_harness.v"
   # Add more files here if you need
 
-tb_name: &TB_NAME "ALUTestbench"
-#tb_name: &TB_NAME "ALUTestVectorTestbench"
+#tb_name: &TB_NAME "ALUTestbench"
+tb_name: &TB_NAME "ALUTestVectorTestbench"
 #tb_name: &TB_NAME "rocketTestHarness"
 
 # RTL Simulation Variables
