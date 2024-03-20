@@ -90,7 +90,7 @@ vlsi.inputs.pin_mode: generated
 vlsi.inputs.pin.generate_mode: semi_auto
 vlsi.inputs.pin.assignments: [
   {pins: "*", layers: ["met4"], side: "bottom"}
-]
+  ]
 
 # Hammer will auto-generate a CPF for simple power designs; see hammer/src/hammer-vlsi/defaults.yml for more info
 vlsi.inputs.power_spec_mode: "auto"

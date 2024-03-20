@@ -15,12 +15,12 @@ verilogSrc: &VERILOG_SRC
 # Specify clock signals
 vlsi.inputs.clocks: [
   {name: "clk", period: *CLK_PERIOD, uncertainty: "0.1ns"}
-]
+  ]
 
 # Input delays match INPUT_DELAY parameter in riscv_test_harness.v
 vlsi.inputs.delays: [
   {name: "mem*", clock: "clk", direction: "input", delay: *CLK_PERIOD_BY_5}
-]
+  ]
 
 # Synthesis Constraints
 synthesis.inputs:
