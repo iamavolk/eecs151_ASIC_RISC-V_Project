@@ -1,4 +1,6 @@
 /skel/build
 /skel/output.json
 /skel/*.log
-
+/skel/tests
+/skel/asm_output
+/skel/bmark_output
