@@ -22,5 +22,8 @@
 `define CSR_TOHOST 12'h51E
 `define CSR_HARTID 12'h50B
 `define CSR_STATUS 12'h50A
+ 
+//`define INST_NOP {25'd0, 7'b0010011}
+//`define CLEAR_NOP {25'd0, 7'b0100101}
 
 `endif //CONST
