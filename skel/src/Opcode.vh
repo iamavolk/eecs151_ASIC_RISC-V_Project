@@ -34,6 +34,8 @@
 // Control status register
 `define OPC_CSR         7'b1110011
 
+// Kill instr
+`define OPC_KILL        7'b0100101
 
 // ***** Function codes *****
 
@@ -77,6 +79,11 @@
 `define FNC2_SRL        1'b0
 `define FNC2_SRA        1'b1
 
+`define FNC7_0          7'b0000000 // ADD, SRL
+`define FNC7_1          7'b0100000 // SUB, SRA
 
+// ***** Special instructions *****
+`define INST_NOP        {12'd0, 5'd0, `FNC_ADD_SUB, 5'd0, `OPC_ARI_ITYPE}
+`define CLEAR_NOP       {12'd0, 5'd0, `FNC_ADD_SUB, 5'd0, `OPC_KILL}
 
 `endif //OPCODE
