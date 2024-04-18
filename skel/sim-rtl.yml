@@ -44,7 +44,8 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/mux3.v"
   - "src/mux4.v"
   - "src/pc_sel_unit.v"
-  - "src/reg_file.v"
+  #- "src/reg_file.v"
+  - "src/reg_file_gen.v"
   - "src/EECS151.v"
 
 #tb_name: &TB_NAME "ALUTestbench"

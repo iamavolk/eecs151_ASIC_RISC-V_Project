@@ -96,15 +96,15 @@ module Riscv151(
   wire [RF_AWIDTH-1:0]   wa, ra1, ra2;
   wire [DWIDTH-1:0]      wd, rd1, rd2;
   wire                   we;
-  reg_file rf(.data_i(wd),
-              .raddra_i(ra1),
-              .raddrb_i(ra2),
-              .waddr_i(wa),
-              .wen_i(we),
-              .clk_i(clk),
-              .rst_i(reset),
-              .douta_o(rd1),
-              .doutb_o(rd2));
+  reg_file_gen rf(.data_i(wd),
+                  .raddra_i(ra1),
+                  .raddrb_i(ra2),
+                  .waddr_i(wa),
+                  .wen_i(we),
+                  .clk_i(clk),
+                  .rst_i(reset),
+                  .douta_o(rd1),
+                  .doutb_o(rd2));
 
   assign ra1 = instr_ID[19:15];
   assign ra2 = instr_ID[24:20];
