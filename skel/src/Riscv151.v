@@ -96,15 +96,15 @@ module Riscv151(
   wire [RF_AWIDTH-1:0]   wa, ra1, ra2;
   wire [DWIDTH-1:0]      wd, rd1, rd2;
   wire                   we;
-  reg_file rf(.data_i(wd),
-              .raddra_i(ra1),
-              .raddrb_i(ra2),
-              .waddr_i(wa),
-              .wen_i(we),
-              .clk_i(clk),
-              .rst_i(reset),
-              .douta_o(rd1),
-              .doutb_o(rd2));
+  reg_file_gen rf(.data_i(wd),
+                  .raddra_i(ra1),
+                  .raddrb_i(ra2),
+                  .waddr_i(wa),
+                  .wen_i(we),
+                  .clk_i(clk),
+                  .rst_i(reset),
+                  .douta_o(rd1),
+                  .doutb_o(rd2));
 
   assign ra1 = instr_ID[19:15];
   assign ra2 = instr_ID[24:20];
@@ -263,15 +263,14 @@ module Riscv151(
                 .sel(fw_branch_B),
                 .out(fwd_branch_rs2));
 
-  // Branch Comparator
-  wire BrEq;
-  wire BrLt;
-  branch_comp #(.N(DWIDTH))
-  br_comp (.br_data0(fwd_branch_rs1), // changed from rs1_X to current arg
-           .br_data1(fwd_branch_rs2), // changed from rs2_X to current arg
-           .BrUn(BrLUn),
-           .BrEq(BrEq),
-           .BrLt(BrLt));
+  /* Branch Comparator 
+  *  Outputs: BrLt, BrEq */
+  wire BrLt, BrEq;
+  BranchComp BranchComp(.br_data0_i (fwd_branch_rs1),
+                        .br_data1_i (fwd_branch_rs2),
+                        .br_un_i    (BrLUn),
+                        .br_eq_o    (BrEq),
+                        .br_lt_o    (BrLt));
 
   // CSR mux 
   wire [DWIDTH-1:0] csr_X;

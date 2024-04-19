@@ -32,7 +32,6 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/riscv_test_harness.v"
   # Add more files here if you need
   - "src/alu.v"
-  - "src/branch_comp.v"
   - "src/control_decode_2.v"
   - "src/fwd_unit.v"
   - "src/imm_generator.v"
@@ -44,8 +43,10 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/mux3.v"
   - "src/mux4.v"
   - "src/pc_sel_unit.v"
-  - "src/reg_file.v"
+  #- "src/reg_file.v"
+  - "src/reg_file_gen.v"
   - "src/EECS151.v"
+  - "src/BranchComp.v"
 
 #tb_name: &TB_NAME "ALUTestbench"
 #tb_name: &TB_NAME "ALUTestVectorTestbench"
