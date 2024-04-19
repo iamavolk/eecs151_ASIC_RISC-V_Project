@@ -263,15 +263,14 @@ module Riscv151(
                 .sel(fw_branch_B),
                 .out(fwd_branch_rs2));
 
-  // Branch Comparator
-  wire BrEq;
-  wire BrLt;
-  branch_comp #(.N(DWIDTH))
-  br_comp (.br_data0(fwd_branch_rs1), // changed from rs1_X to current arg
-           .br_data1(fwd_branch_rs2), // changed from rs2_X to current arg
-           .BrUn(BrLUn),
-           .BrEq(BrEq),
-           .BrLt(BrLt));
+  /* Branch Comparator 
+  *  Outputs: BrLt, BrEq */
+  wire BrLt, BrEq;
+  BranchComp BranchComp(.br_data0_i (fwd_branch_rs1),
+                        .br_data1_i (fwd_branch_rs2),
+                        .br_un_i    (BrLUn),
+                        .br_eq_o    (BrEq),
+                        .br_lt_o    (BrLt));
 
   // CSR mux 
   wire [DWIDTH-1:0] csr_X;
