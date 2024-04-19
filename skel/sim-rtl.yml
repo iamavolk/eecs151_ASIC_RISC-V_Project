@@ -47,6 +47,7 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/reg_file_gen.v"
   - "src/EECS151.v"
   - "src/BranchComp.v"
+  - "src/ImmGen.v"
 
 #tb_name: &TB_NAME "ALUTestbench"
 #tb_name: &TB_NAME "ALUTestVectorTestbench"
