@@ -139,13 +139,15 @@ module Riscv151(
   ctrl_dec(.instr(instr_ID),
            .hex_control(ctrl_ID));
 
+  /* Immediate Generator 
+  *  Output: value of Immediate in ID stage */
   wire [DWIDTH-1:0] imm_ID;
   wire [2:0] imm_sel_ID = ctrl_ID[3:1];
-  imm_generator #(.N(DWIDTH))
-  imm_gen (.instr(instr_ID),
-           .imm_sel(imm_sel_ID[1:0]),
-           .imm(imm_ID));
+  ImmGen ImmGen(.instr_i   (instr_ID),
+                .imm_sel_i (imm_sel_ID[1:0]),
+                .imm_o     (imm_ID));
 
+  /* Jump Target Generator */
   jal_unit
   jump_and_link (.instr(instr_ID),
                  .pc(pc_ID),
