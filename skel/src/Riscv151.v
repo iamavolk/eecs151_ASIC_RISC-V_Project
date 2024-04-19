@@ -135,29 +135,32 @@ module Riscv151(
                  .out(fwd_ID_rs2_res));
 
   wire [CWIDTH-1:0] ctrl_ID;
-  control_decode_2
-  ctrl_dec(.instr(instr_ID),
-           .hex_control(ctrl_ID));
+  /* Control Signal Generator 
+   * [15:0] = {}
+   * TODO */
+  control_decode_2 CtrlSignalsGen(.instr       (instr_ID),
+                                 .hex_control (ctrl_ID));
 
-  /* Immediate Generator 
-  *  Output: value of Immediate in ID stage */
   wire [DWIDTH-1:0] imm_ID;
   wire [2:0] imm_sel_ID = ctrl_ID[3:1];
+  /* Immediate Generator 
+  *  Output: value of Immediate in ID stage */
   ImmGen ImmGen(.instr_i   (instr_ID),
                 .imm_sel_i (imm_sel_ID[1:0]),
                 .imm_o     (imm_ID));
 
   /* Jump Target Generator */
-  jal_unit
-  jump_and_link (.instr(instr_ID),
-                 .pc(pc_ID),
-	               .jal_pc(jal_select));
+  jal_unit JumpTargetPc (.instr  (instr_ID),
+                         .pc     (pc_ID),
+	                       .jal_pc (jal_select));
 
+  /* Presense of a JAL instr is propagated further down the pipeline
+   * into PC-select unit */
   wire [1:0] pc_sel_jal_ID = (instr_ID[6:0] == `OPC_JAL) ? 2'b01 : 2'b00;
 
   ////////////////////////////////////////////////////
   //
-  //     ID Stage END
+  //     ID Stage END; Pipeline registers BEGIN
   //
   ////////////////////////////////////////////////////
   
