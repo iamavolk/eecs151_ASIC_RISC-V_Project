@@ -8,7 +8,6 @@ module mem_wb_select #(
     input [3:0] addr_alu_res,
     input [1:0] offset,
     output [3:0] dmem_wea_mask,
-    //output [3:0] imem_wea_mask,
     output [WIDTH-1:0] data_out
 );
     
