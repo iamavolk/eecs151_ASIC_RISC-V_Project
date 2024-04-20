@@ -28,8 +28,8 @@ module Riscv151(
   localparam HCLEAR = 16'h0;
   // Implement your core here, then delete this comment
   
-  wire [DWIDTH-1:0]      csr_dout, csr_din;
-  wire                   csr_we;
+  wire [DWIDTH-1:0] csr_dout, csr_din;
+  wire              csr_we;
   REGISTER_R_CE #(.N(DWIDTH))
   csr_reg (.q(csr_dout),
            .d(csr_din),
@@ -65,18 +65,16 @@ module Riscv151(
 
   wire [DWIDTH-1:0] instr_IF;
   assign icache_addr = pc_IF;
-  //assign icache_dout = instr_IF;
   assign instr_IF = icache_dout;
 
   wire instr_kill_control;
   wire [1:0] pc_sel_check_ID;
   wire [1:0] pc_select_jalrb_WB;
-  instr_kill_unit
-  instr_kill_ctrl (.pc_select_jal_x(pc_sel_check_ID),
-                   .pc_select_jalr_b_wb(pc_select_jalrb_WB),
-                   .instr_kill_res(instr_kill_control));
+  InstrKillID InstrKill(.pc_sel_JAL_X_i     (pc_sel_check_ID),
+                        .pc_sel_JALR_B_WB_i (pc_select_jalrb_WB),
+                        .instr_kill_res_o   (instr_kill_control));
 
-  wire instr_kill = ((pc_IF == 32'h1000_0000) || (pc_IF == 32'h0000_0000) || (pc_IF == `PC_RESET) || instr_kill_control);
+  wire instr_kill = (pc_IF == `PC_RESET) | instr_kill_control;
 
   wire [DWIDTH-1:0] instr_ID;
   mux2 #(.N(DWIDTH))
@@ -93,18 +91,18 @@ module Riscv151(
 
 
   localparam RF_AWIDTH = 5;
-  wire [RF_AWIDTH-1:0]   wa, ra1, ra2;
-  wire [DWIDTH-1:0]      wd, rd1, rd2;
-  wire                   we;
-  reg_file_gen rf(.data_i(wd),
-                  .raddra_i(ra1),
-                  .raddrb_i(ra2),
-                  .waddr_i(wa),
-                  .wen_i(we),
-                  .clk_i(clk),
-                  .rst_i(reset),
-                  .douta_o(rd1),
-                  .doutb_o(rd2));
+  wire [RF_AWIDTH-1:0] wa, ra1, ra2;
+  wire [DWIDTH-1:0]    wd, rd1, rd2;
+  wire                 we;
+  RegFile rf(.data_i(wd),
+             .raddra_i(ra1),
+             .raddrb_i(ra2),
+             .waddr_i(wa),
+             .wen_i(we),
+             .clk_i(clk),
+             .rst_i(reset),
+             .douta_o(rd1),
+             .doutb_o(rd2));
 
   assign ra1 = instr_ID[19:15];
   assign ra2 = instr_ID[24:20];
@@ -404,31 +402,6 @@ module Riscv151(
   //
   //     WB Stage BEGIN 
   //
-  ////////////////////////////////////////////////////
-  
-
-  ////////////////////////////////////////////////////
-  // COUNTERS
-  ////////////////////////////////////////////////////
-  // Cycle Counter
-  //wire [DWIDTH-1:0] cycle_counter_d;
-  //wire [DWIDTH-1:0] cycle_counter_q;
-  //REGISTER_R #(.N(DWIDTH), .INIT(32'd0))
-  //cyc_ctr (.q(cycle_counter_q),
-  //         .d(cycle_counter_d),
-  //         .rst(ctr_reset || rst),
-  //         .clk(clk));
-  //assign cycle_counter_d = cycle_counter_q + 1;
-  //// Instruction Counter
-  //wire [DWIDTH-1:0] instr_counter_d;
-  //wire [DWIDTH-1:0] instr_counter_q;
-  //REGISTER_R_CE #(.N(DWIDTH), .INIT(32'b0))
-  //instr_ctr (.q(instr_counter_q),
-  //           .d(instr_counter_d),
-  //           .rst(ctr_reset || rst),
-  //           .ce(~bubble_inside_wb),
-  //           .clk(clk));
-  //assign instr_counter_d = instr_counter_q + 1;
   ////////////////////////////////////////////////////
   
   wire [DWIDTH-1:0] mem_output;
