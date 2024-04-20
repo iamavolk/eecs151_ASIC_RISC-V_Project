@@ -35,7 +35,7 @@ simVerilogSrc: &SIM_VERILOG_SRC
   #- "src/fwd_unit.v"
   #- "src/imm_generator.v"
   #- "src/instr_kill_unit.v"
-  - "src/jal_unit.v"
+  #- "src/jal_unit.v"
   - "src/mem_load_mask_eff.v"
   - "src/mem_wb_select.v"
   - "src/mux2.v"
@@ -51,6 +51,7 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/ForwardingUnit.v"
   - "src/InstrKillID.v"
   - "src/RegFile.v"
+  - "src/JALTargetID.v"
 
 #tb_name: &TB_NAME "ALUTestbench"
 #tb_name: &TB_NAME "ALUTestVectorTestbench"
