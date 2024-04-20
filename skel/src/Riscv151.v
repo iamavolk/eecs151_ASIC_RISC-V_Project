@@ -285,7 +285,7 @@ module Riscv151(
              .sel(instr_X[14]),
              .out(csr_X));
   assign csr_din = csr_X;
-  assign csr_we = (instr_X[6:0] == `OPC_CSR) ? 1'b1 : 1'b0;                              // TODO: change, subject to instr_WB 
+  assign csr_we = (instr_X[6:0] == `OPC_CSR) ? 1'b1 : 1'b0;
 
   wire [DWIDTH-1:0] alu_A;
   mux2 #(.N(DWIDTH))
@@ -303,11 +303,17 @@ module Riscv151(
 
   wire [DWIDTH-1:0] alu_res_X;
 
-  alu #(.N(DWIDTH))
-  alu_unit (.A(alu_A),
-            .B(alu_B),
-            .ALUSel(ALUSel_X),
-            .ALURes(alu_res_X));
+  //alu #(.N(DWIDTH))
+  //alu_unit (.A(alu_A),
+  //          .B(alu_B),
+  //          .ALUSel(ALUSel_X),
+  //          .ALURes(alu_res_X));
+  
+  ALU alu(.a_i       (alu_A), 
+          .b_i       (alu_B), 
+          .alu_sel_i (ALUSel_X), 
+          .alu_res_o (alu_res_X));
+
   assign alu_rs1_res = alu_res_X;
   assign alu_rs2_res = alu_res_X;
 
@@ -458,7 +464,7 @@ module Riscv151(
   assign wd = res_WB;
   assign we = wa == X0_ADDR ? 1'b0 : RegWEn;
 
-  fwd_unit
+  ForwardingUnit
   forwarding (.rf_wen_X(RegWEn_X),
               .rf_wen_WB(RegWEn),
               .opcode(instr_WB[6:0]),
