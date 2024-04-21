@@ -10,20 +10,26 @@ wire [6:0] opcode = instr[6:0];
 wire [2:0] func3 = instr[14:12];
 wire func2 = instr[30];
 
-always @(*) begin
-    case (opcode)
-	`OPC_ARI_RTYPE: begin
+always_comb begin
+  case (opcode)
+	  `OPC_ARI_RTYPE: begin
 	    case (func3)
-	        `FNC_ADD_SUB:
-                    if (func2 == `FNC2_ADD) hex_control_res = 16'h1001;
-                    else if (func2 == `FNC2_SUB) hex_control_res = 16'h1601;
-                `FNC_SLL: hex_control_res = 16'h1081;
-                `FNC_SLT: hex_control_res = 16'h1101;
-                `FNC_SLTU: hex_control_res = 16'h1181;
-                `FNC_XOR: hex_control_res = 16'h1201;
-                `FNC_SRL_SRA:
-		   if (func2 == `FNC2_SRL) hex_control_res = 16'h1281;
-		    else if (func2 == `FNC2_SRA) hex_control_res = 16'h1681;
+	      `FNC_ADD_SUB:
+          if (func2 == `FNC2_ADD) hex_control_res = 16'b0001_0000_0000_0001;
+          else if (func2 == `FNC2_SUB) hex_control_res = 16'b0001_0110_0000_0001;
+                //`FNC_SLL: hex_control_res = 16'h1081;
+        `FNC_SLL: hex_control_res = 16'b0001_0000_1000_0001;
+                //`FNC_SLT: hex_control_res = 16'h1101;
+        `FNC_SLT: hex_control_res = 16'b0001_0001_0000_0001;
+                //`FNC_SLTU: hex_control_res = 16'h1181;
+        `FNC_SLTU: hex_control_res = 16'b0001_0001_1000_0001;
+                //`FNC_XOR: hex_control_res = 16'h1201;
+        `FNC_XOR: hex_control_res = 16'b0001_0010_0000_0001;
+        `FNC_SRL_SRA:
+		      //if (func2 == `FNC2_SRL) hex_control_res = 16'h1281;
+		      if (func2 == `FNC2_SRL) hex_control_res = 16'b0001_0010_1000_0001;
+		      //else if (func2 == `FNC2_SRA) hex_control_res = 16'h1681;
+		      else if (func2 == `FNC2_SRA) hex_control_res = 16'b0001_0110_1000_0001;
 		`FNC_OR: hex_control_res = 16'h1301;
 		`FNC_AND: hex_control_res = 16'h1381;
 		default: hex_control_res = 16'bx;
