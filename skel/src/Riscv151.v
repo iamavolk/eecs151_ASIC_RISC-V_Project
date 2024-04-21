@@ -4,18 +4,25 @@
 module Riscv151(input clk,
                 input reset,
 
-                // Memory system ports
-                output [31:0] dcache_addr,
-                output [31:0] icache_addr,
-                output [3:0]  dcache_we,
-                output        dcache_re,
+                /* Memory system ports */
+                // into icache
                 output        icache_re,
+                output [31:0] icache_addr,
+                // into dcache
+                output        dcache_re,
+                output [31:0] dcache_addr,
                 output [31:0] dcache_din,
-                input  [31:0] dcache_dout,
-                input  [31:0] icache_dout,
-                input         stall,
+                output [3:0]  dcache_we,
+
+                // from caches
+                input  [31:0] dcache_dout, // From dcache
+                input  [31:0] icache_dout, // From icache
+                input         stall,       // cache signals to stall pipeline
+
                 output [31:0] csr);
 
+
+  //`define X0_ADDR 5'b00000
 
   localparam X0_ADDR = 5'b00000;
   localparam DWIDTH  = 32;
@@ -29,8 +36,10 @@ module Riscv151(input clk,
                     .enable(1'b1),
                     .count(hella_cnt));
 
-  //wire no_stall = 1'b1;
-  wire no_stall = (hella_cnt != 4);
+  wire no_stall = 1'b1;
+  //wire no_stall = (hella_cnt != 4);
+  //wire no_stall = (hella_cnt != 4) & (hella_cnt != 5) & (hella_cnt != 6);
+  //wire no_stall = (hella_cnt[0] != 1'b0);
 
   assign icache_re = ~stall;
   assign dcache_re = ~stall;
