@@ -116,8 +116,13 @@ module Riscv151(input clk,
   wire [CWIDTH-1:0] ctrl_ID;
   /* Control Signal Generator 
    * [15:0] = {} */
-  control_decode_2 CtrlSignalsGen(.instr       (instr_ID),
-                                  .hex_control (ctrl_ID));
+ // ControlDec CtrlDec(.instr_i (instr_ID),
+ //                    .ctrl_o  (ctrl_ID));
+
+  ControlDec CtrlDec(.opcode_i (instr_ID[6:0]),
+                     .func3_i  (instr_ID[14:12]),
+                     .func2_i  (instr_ID[30]),
+                     .ctrl_o   (ctrl_ID));
 
   wire [DWIDTH-1:0] imm_ID;
   wire [2:0] imm_sel_ID = ctrl_ID[3:1];
@@ -201,7 +206,7 @@ module Riscv151(input clk,
   
   // Ctrl kill mux
   wire [CWIDTH-1:0] ctrl_X;
-  wire ctrl_kill_x = (pc_select_jalrb_WB == 2'b10) ? 1'b1 : 1'b0;
+  wire ctrl_kill_x = pc_select_jalrb_WB == 2'b10;
   mux2 #(.N(CWIDTH)) ctrl_kill_mux (.in0(ctrl_X_pre),
                                     .in1(HCLEAR),
                                     .sel(ctrl_kill_x),
@@ -275,26 +280,25 @@ module Riscv151(input clk,
   assign br_jalr_select = alu_res_X;
 
   wire [1:0] pc_sel_x;
-  pc_sel_unit pc_select_unit (.instr_hex(ctrl_X),
-	                            .opcode(instr_X[6:0]),
-	                            .func3(instr_X[14:12]),
-                              .pc_sel_id(pc_sel_jal_ID),
-                              .BrEq(BrEq),
-                              .BrLt(BrLt),
-                              .pc_sel_x(pc_sel_x),
-                              .PCSel(pc_select));
+  PCSelect PCSelect (.ctrl_kill_X_i (ctrl_kill_x),
+	                   .opcode_X_i    (instr_X[6:0]),
+	                   .func3_X_i     (instr_X[14:12]),
+                     .pc_sel_ID_i   (pc_sel_jal_ID),
+                     .br_eq_i       (BrEq),
+                     .br_lt_i       (BrLt),
+                     .pc_sel_X_o    (pc_sel_x),
+                     .pc_select_o   (pc_select));
 
   // Mask selector, pre-MEM entry data processing
   wire [3:0] dmem_mask;
   wire [DWIDTH-1:0] rs2_X_shifted;
   wire [1:0] offset = alu_res_X[1:0];
-  mem_wb_select #(.WIDTH(DWIDTH)) mem_mask (.mem_write(MemRW),
-                                            .instr(instr_X),
-                                            .data_in(fwd_branch_rs2),
-                                            .addr_alu_res(alu_res_X[31:28]),
-                                            .offset(offset),
-                                            .dmem_wea_mask(dmem_mask),
-                                            .data_out(rs2_X_shifted));
+  StoreMask #(.WIDTH(DWIDTH)) StoreMask (.mem_write_X_i   (MemRW),
+                                         .func3_2lsb_X_i  (instr_X[13:12]),
+                                         .byte_offset_i   (offset),
+                                         .data_i          (fwd_branch_rs2),
+                                         .mem_wea_mask_o  (dmem_mask),
+                                         .data_out_o      (rs2_X_shifted));
 
   assign dcache_we    = dmem_mask;
   assign dcache_addr  = alu_res_X;
@@ -355,10 +359,10 @@ module Riscv151(input clk,
   assign mem_output = dcache_dout;
 
   wire [DWIDTH-1:0] mem_masked;
-  mem_load_mask_eff #(.WIDTH(DWIDTH)) mem_mask_unit (.addr(alu_res_WB[1:0]),
-                                                     .func3(instr_WB[14:12]),
-                                                     .mem_res(mem_output),
-                                                     .mem_masked_out(mem_masked));
+  MemLoadMask #(.WIDTH(DWIDTH)) MemLoadMasked (.addr_i           (alu_res_WB[1:0]),
+                                               .func3_i          (instr_WB[14:12]),
+                                               .mem_res_i        (mem_output),
+                                               .mem_res_masked_o (mem_masked));
 
   wire RegWEn       = ctrl_WB[0];
   wire [1:0] WBSel  = ctrl_WB[13:12];
