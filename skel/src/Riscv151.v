@@ -16,14 +16,25 @@ module Riscv151(input clk,
                 input         stall,
                 output [31:0] csr);
 
-  assign icache_re = ~stall;
-  assign dcache_re = ~stall;
 
   localparam X0_ADDR = 5'b00000;
   localparam DWIDTH  = 32;
   localparam CWIDTH  = 16;
-  localparam HCLEAR = 16'h0;
+  localparam HCLEAR  = 16'h0;
   
+
+  wire [4:0] hella_cnt;
+  WrapCtr wrap_ctr (.clk(clk),
+                    .reset(reset),
+                    .enable(1'b1),
+                    .count(hella_cnt));
+
+  //wire no_stall = 1'b1;
+  wire no_stall = (hella_cnt != 4);
+
+  assign icache_re = ~stall;
+  assign dcache_re = ~stall;
+
   wire              csr_we;
   wire [DWIDTH-1:0] csr_dout, csr_din;
   REGISTER_R_CE #(.N(DWIDTH)) csr_reg (.q(csr_dout),
@@ -41,19 +52,22 @@ module Riscv151(input clk,
                                  .sel(pc_select),
                                  .out(pc_sel_mux_out));
 
-  REGISTER_R #(.N(DWIDTH), .INIT(`PC_RESET)) pc_reg (.q(pc_IF),
-                                                     .d(pc_sel_mux_out),
-                                                     .rst(reset),
-                                                     .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH), .INIT(`PC_RESET)) pc_reg (.q(pc_IF),
+                                                        .d(pc_sel_mux_out),
+                                                        .rst(reset),
+                                                        .ce(no_stall),
+                                                        .clk(clk));
 
   wire [DWIDTH-1:0] pc_ID;
-  REGISTER_R #(.N(DWIDTH)) pc_IF_ID (.q(pc_ID),
-                                     .d(pc_IF),
-	                                   .rst(reset),
-	                                   .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) pc_IF_ID (.q(pc_ID),
+                                        .d(pc_IF),
+	                                      .rst(reset),
+                                        .ce(no_stall),
+	                                      .clk(clk));
 
   wire [DWIDTH-1:0] instr_IF;
-  assign icache_addr = pc_IF;
+  //assign icache_addr = pc_IF;
+  assign icache_addr = no_stall ? pc_IF : pc_IF - 4;
   assign instr_IF = icache_dout;
 
   wire instr_kill_control;
@@ -118,7 +132,6 @@ module Riscv151(input clk,
    * [15:0] = {} */
  // ControlDec CtrlDec(.instr_i (instr_ID),
  //                    .ctrl_o  (ctrl_ID));
-
   ControlDec CtrlDec(.opcode_i (instr_ID[6:0]),
                      .func3_i  (instr_ID[14:12]),
                      .func2_i  (instr_ID[30]),
@@ -148,55 +161,63 @@ module Riscv151(input clk,
   ////////////////////////////////////////////////////
   
   wire [1:0] pc_sel_jal_X;
-  REGISTER_R #(.N(2)) pc_sel_jal_ID_X (.q(pc_sel_jal_X),
-                                       .d(pc_sel_jal_ID),
-                                       .rst(reset),
-                                       .clk(clk));
+  REGISTER_R_CE #(.N(2)) pc_sel_jal_ID_X (.q(pc_sel_jal_X),
+                                          .d(pc_sel_jal_ID),
+                                          .rst(reset),
+                                          .ce(no_stall),
+                                          .clk(clk));
 
   assign pc_sel_check_ID = pc_sel_jal_X;
 
   wire [DWIDTH-1:0] imm_X;
-  REGISTER_R #(.N(DWIDTH)) imm_ID_X (.q(imm_X),
-                                     .d(imm_ID),
-                                     .rst(reset),
-                                     .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) imm_ID_X (.q(imm_X),
+                                        .d(imm_ID),
+                                        .rst(reset),
+                                        .ce(no_stall),
+                                        .clk(clk));
 
   wire [CWIDTH-1:0] ctrl_X_pre;
-  REGISTER_R #(.N(CWIDTH)) ctrl_ID_X (.q(ctrl_X_pre),
-                                      .d(ctrl_ID),
-                                      .rst(reset),
-                                      .clk(clk));
+  REGISTER_R_CE #(.N(CWIDTH)) ctrl_ID_X (.q(ctrl_X_pre),
+                                         .d(ctrl_ID),
+                                         .rst(reset),
+                                         .ce(no_stall),
+                                         .clk(clk));
 
   wire [DWIDTH-1:0] rs1_X;
-  REGISTER_R #(.N(DWIDTH)) rs1_ID_X (.q(rs1_X),
-                                     .d(fwd_ID_rs1_res),
-                                     .rst(reset),
-                                     .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) rs1_ID_X (.q(rs1_X),
+                                        .d(fwd_ID_rs1_res),
+                                        .rst(reset),
+                                        .ce(no_stall),
+                                        .clk(clk));
 
   wire [DWIDTH-1:0] rs2_X;
-  REGISTER_R #(.N(DWIDTH)) rs2_ID_X (.q(rs2_X),
-                                     .d(fwd_ID_rs2_res),
-                                     .rst(reset),
-                                     .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) rs2_ID_X (.q(rs2_X),
+                                        .d(fwd_ID_rs2_res),
+                                        .rst(reset),
+                                        .ce(no_stall),
+                                        .clk(clk));
 
   wire [DWIDTH-1:0] instr_X;
-  REGISTER_R #(.N(DWIDTH)) instr_ID_X (.q(instr_X), 
-                                       .d(instr_ID),
-                                       .rst(reset),
-                                       .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) instr_ID_X (.q(instr_X), 
+                                          .d(instr_ID),
+                                          .rst(reset),
+                                          .ce(no_stall),
+                                          .clk(clk));
 
   wire [DWIDTH-1:0] pc_X;
-  REGISTER_R #(.N(DWIDTH)) pc_ID_X (.q(pc_X),
-	                                  .d(pc_ID),
-	                                  .rst(reset),
-	                                  .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) pc_ID_X (.q(pc_X),
+	                                     .d(pc_ID),
+	                                     .rst(reset),
+                                       .ce(no_stall),
+	                                     .clk(clk));
 
   wire [DWIDTH-1:0] csr_uimm_X;
   wire [DWIDTH-1:0] csr_uimm_extend = {27'b0,instr_ID[19:15]};
-  REGISTER_R #(.N(DWIDTH)) csr_uImm_ID_X (.q(csr_uimm_X),
-                                          .d(csr_uimm_extend),
-                                          .rst(reset),
-                                          .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) csr_uImm_ID_X (.q(csr_uimm_X),
+                                             .d(csr_uimm_extend),
+                                             .rst(reset),
+                                             .ce(no_stall),
+                                             .clk(clk));
 
   ////////////////////////////////////////////////////
   //
@@ -255,7 +276,8 @@ module Riscv151(input clk,
                                 .sel(instr_X[14]),
                                 .out(csr_X));
   assign csr_din = csr_X;
-  assign csr_we = (instr_X[6:0] == `OPC_CSR) ? 1'b1 : 1'b0;
+  assign csr_we = (instr_X[6:0] == `OPC_CSR);
+  //assign csr_we = (instr_X[6:0] == `OPC_CSR) & no_stall;
 
   wire [DWIDTH-1:0] alu_A;
   mux2 #(.N(DWIDTH)) alu_A_mux (.in0(fwd_branch_rs1),
@@ -300,11 +322,11 @@ module Riscv151(input clk,
                                          .mem_wea_mask_o  (dmem_mask),
                                          .data_out_o      (rs2_X_shifted));
 
-  assign dcache_we    = dmem_mask;
-  assign dcache_addr  = alu_res_X;
+  assign dcache_we    = no_stall ? dmem_mask : 4'b0000;
+  //assign dcache_addr  = alu_res_X;
   assign dcache_din   = rs2_X_shifted;
 
-  wire bubble_inside = ((instr_X == `INST_NOP) || (instr_X == `CLEAR_NOP) || (ctrl_X == HCLEAR)) ? 1'b1: 1'b0;
+  wire bubble_inside  = ((instr_X == `INST_NOP) || (instr_X == `CLEAR_NOP) || (ctrl_X == HCLEAR)) ? 1'b1: 1'b0;
 
   ////////////////////////////////////////////////////
   //
@@ -313,47 +335,57 @@ module Riscv151(input clk,
   ////////////////////////////////////////////////////
   
   wire bubble_inside_wb;
-  REGISTER_R #(.N(1), .INIT(1'b0)) bubble_X_WB (.q(bubble_inside_wb),
-                                                .d(bubble_inside),
-                                                .rst(reset),
-                                                .clk(clk));
+  REGISTER_R_CE #(.N(1), .INIT(1'b0)) bubble_X_WB (.q(bubble_inside_wb),
+                                                   .d(bubble_inside),
+                                                   .rst(reset),
+                                                   .ce(no_stall),
+                                                   .clk(clk));
 
   wire [1:0] pc_select_WB;
-  REGISTER_R #(.N(2)) pc_select_X_WB (.q(pc_select_WB),
-                                      .d(pc_sel_x),
-                                      .rst(reset),
-                                      .clk(clk));
+  REGISTER_R_CE #(.N(2)) pc_select_X_WB (.q(pc_select_WB),
+                                         .d(pc_sel_x),
+                                         .rst(reset),
+                                         .ce(no_stall),
+                                         .clk(clk));
+
   assign pc_select_jalrb_WB = pc_select_WB; 
 
   wire [DWIDTH-1:0] alu_res_WB;
-  REGISTER_R #(.N(DWIDTH)) alu_X_WB (.q(alu_res_WB),
-                                     .d(alu_res_X),
-                                     .rst(reset),
-                                     .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) alu_X_WB (.q(alu_res_WB),
+                                        .d(alu_res_X),
+                                        .rst(reset),
+                                        .ce(no_stall),
+                                        .clk(clk));
    
   wire [CWIDTH-1:0] ctrl_WB;
-  REGISTER_R #(.N(CWIDTH)) ctrl_X_WB (.q(ctrl_WB),
-                                      .d(ctrl_X),
-                                      .rst(reset),
-                                      .clk(clk));
+  REGISTER_R_CE #(.N(CWIDTH)) ctrl_X_WB (.q(ctrl_WB),
+                                         .d(ctrl_X),
+                                         .rst(reset),
+                                         .ce(no_stall),
+                                         .clk(clk));
    
   wire [DWIDTH-1:0] instr_WB;
-  REGISTER_R #(.N(DWIDTH)) instr_X_WB (.q(instr_WB),
-                                       .d(instr_X),
-                                       .rst(reset),
-                                       .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) instr_X_WB (.q(instr_WB),
+                                          .d(instr_X),
+                                          .rst(reset),
+                                          .ce(no_stall),
+                                          .clk(clk));
 
   wire [DWIDTH-1:0] pc_WB;
-  REGISTER_R #(.N(DWIDTH)) pc_X_WB (.q(pc_WB),
-                                    .d(pc_X),
-                                    .rst(reset),
-                                    .clk(clk));
+  REGISTER_R_CE #(.N(DWIDTH)) pc_X_WB (.q(pc_WB),
+                                       .d(pc_X),
+                                       .rst(reset),
+                                       .ce(no_stall),
+                                       .clk(clk));
 
   ////////////////////////////////////////////////////
   //
   //     WB Stage BEGIN; Pipeline registers END
   //
   ////////////////////////////////////////////////////
+
+  assign dcache_addr  = no_stall ? alu_res_X : alu_res_WB;
+  //assign dcache_addr  = alu_res_X;
   
   wire [DWIDTH-1:0] mem_output;
   assign mem_output = dcache_dout;
@@ -376,15 +408,15 @@ module Riscv151(input clk,
                              .out(res_WB));
 
   // Writeback wire forwared to X, ID stages
-  assign wb_rs1_res = res_WB;
-  assign wb_rs2_res = res_WB;
+  assign wb_rs1_res  = res_WB;
+  assign wb_rs2_res  = res_WB;
   assign wb_res_br_A = res_WB;
   assign wb_res_br_B = res_WB;
 
   // RegFile signals. wa = addr0, wd = data0, we is asserted unless rd = x0 
   assign wa = instr_WB[11:7];
   assign wd = res_WB;
-  assign we = wa == X0_ADDR ? 1'b0 : RegWEn;
+  assign we = (wa == X0_ADDR) ? 1'b0 : RegWEn;
 
   ForwardingUnit forwarding (.rf_wen_X(RegWEn_X),
                              .rf_wen_WB(RegWEn),

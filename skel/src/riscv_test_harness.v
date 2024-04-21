@@ -187,6 +187,18 @@ module rocketTestHarness;
   always @(posedge clk)
   begin
     //$fwrite(32'h80000002, "C%0d: csr: %d\n", trace_count, exit);
+    //$display("=== %d ===", dut.cpu.hella_cnt);
+    //if (dut.cpu.hella_cnt == 4 | dut.cpu.hella_cnt == 5 | dut.cpu.hella_cnt == 6 | dut.cpu.hella_cnt == 7 | dut.cpu.hella_cnt == 8) begin
+      //$display("=== hella_cnt %d ===", dut.cpu.hella_cnt);
+      //$display("=== PC %x ===", dut.cpu.pc_ID);
+      //$display("=== x1 %x ===", dut.cpu.rf.regs[1]);
+      //$display("=== x2 %x ===", dut.cpu.rf.regs[2]);
+      //$display("=== x3 %x ===", dut.cpu.rf.regs[3]);
+      //$display("=== x7 %x ===", dut.cpu.rf.regs[7]);
+      //$display("=== x14 %x ===", dut.cpu.rf.regs[14]);
+      //$display("\n");
+    //end
+    //$display("=== hella_cnt %d ===", dut.cpu.hella_cnt);
     //$fwrite(32'h80000002, "C%d: %d [%d] pc=[%h] W[r%d=%h][%d] R[r%d=%h] R[r%d=%h] inst=[%h] DASM(%h)\n", T135, T133, T132, T130, T128, T127, T126, T124, T97, T95, T9, T8, T1);
 
     if (reset == 0) begin
@@ -214,7 +226,7 @@ module rocketTestHarness;
 
     if (exit == 1)
     begin
-      $fdisplay(stderr, "*** PASSED *** (%0s) after %0d simulation cycles", reason, trace_count);
+      $fdisplay(stderr, "*** PASSED *** (%0s) after %0d Zimulation cycles", reason, trace_count);
       `VCDPLUSCLOSE
       $finish;
     end
