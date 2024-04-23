@@ -10,7 +10,7 @@ simOptions: &SIM_OPTIONS
   - "-debug"
   - "+vcs+lic+wait"
   - "+vcs+initreg+random"
-  - "+define+no_cache_mem"
+  #- "+define+no_cache_mem"
   - "+rad"
   - "-quiet"
   - "+define+DEBUG"
@@ -57,6 +57,7 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/MemLoadMask.v"
   - "src/StoreMask.v"
   - "src/WrapCtr.v"
+  - "src/TinyCache.v"
 
 #tb_name: &TB_NAME "ALUTestbench"
 #tb_name: &TB_NAME "ALUTestVectorTestbench"
