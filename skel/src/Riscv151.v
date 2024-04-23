@@ -36,13 +36,15 @@ module Riscv151(input clk,
                     .enable(1'b1),
                     .count(hella_cnt));
 
-  wire no_stall = 1'b1;
+  wire no_stall = ~stall;
+  //wire no_stall = 1'b1;
   //wire no_stall = (hella_cnt != 4);
   //wire no_stall = (hella_cnt != 4) & (hella_cnt != 5) & (hella_cnt != 6);
   //wire no_stall = (hella_cnt[0] != 1'b0);
 
   assign icache_re = ~stall;
-  assign dcache_re = ~stall;
+  //assign dcache_re = ~stall;
+  assign dcache_re = 1'b0;
 
   wire              csr_we;
   wire [DWIDTH-1:0] csr_dout, csr_din;
@@ -440,5 +442,17 @@ module Riscv151(input clk,
                              .fw_ID_B(fw_B),
                              .fw_X_br_A(fw_branch_A),
                              .fw_X_br_B(fw_branch_B));
+
+
+  wire [31:0] tiny_cache_data_o;
+  wire [7:0]  tiny_cache_addr_i = {3'b0, hella_cnt};
+  TinyCache tcache (.clk     (clk),
+                    .reset   (reset),
+                    .addr_i  (tiny_cache_addr_i),
+                    .data_i  (instr_IF),
+                    //.we_i    (hella_cnt == 4),
+                    .we_i    (1'b1),
+                    .wmask_i (4'b1111),
+                    .data_o  (tiny_cache_data_o));
 
 endmodule

@@ -78,13 +78,17 @@ assign stall =  ~i_stall_n || ~d_stall_n;
 cache icache (
   .clk(clk),
   .reset(reset),
+
   .cpu_req_valid(icache_re),
   .cpu_req_ready(i_stall_n),
   .cpu_req_addr(icache_addr[31:2]),
+
   .cpu_req_data(), // core does not write to icache
   .cpu_req_write(4'b0), // never write
+
   .cpu_resp_valid(),
   .cpu_resp_data(icache_dout),
+
   .mem_req_valid(ic_mem_req_valid),
   .mem_req_ready(ic_mem_req_ready),
   .mem_req_addr(ic_mem_req_addr),
