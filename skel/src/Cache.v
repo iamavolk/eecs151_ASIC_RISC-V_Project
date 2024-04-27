@@ -147,6 +147,11 @@ module cache # (parameter LINES = 64,
   end
   /////////////////////////////////////////////
   /////////////////////////////////////////////
+  reg flush_done;
+  always @(posedge clk) begin
+    if (reset || next_state == `IDLE) flush_done <= 1'b0;
+    else if (store_write_req && state == `DRAM_WRITE && block_service == 2'b00) flush_done <= 1'b1;
+  end
 
   always_comb begin
     cpu_request_ready  = 1'b0;
@@ -241,9 +246,17 @@ module cache # (parameter LINES = 64,
               //if (write_req) next_state = tag_dirty ? `WAIT_DRAM_WRITE_READY : `WAIT_DRAM_READY;
               if (store_write_req) begin
                 if (tag_dirty) begin
-                  sram_index_walker = {index_I, block_service};
-                  next_block_service = block_service + 1;
-                  next_state = `WAIT_DRAM_FLUSH_BLOCK;
+                  mem_request_valid       = 1'b1;
+                  mem_request_rw          = 1'b1;
+                  if (mem_req_ready) begin
+                    sram_index_walker       = {index_I, block_service};
+                    next_block_service      = block_service + 1;
+                    //mem_request_addr        = cpu_req_addr[29:2];
+                    mem_request_addr        = {meta_dv_tag_out[19:0], index_I, 2'b00};
+                    next_state              = `PREPARE_FLUSH;
+                  end else begin
+                    next_state = `WAIT_DRAM_READY;
+                  end
                 end
                 else next_state = `WAIT_DRAM_READY;
               end
@@ -258,36 +271,73 @@ module cache # (parameter LINES = 64,
         
       end  
 
-      `WAIT_DRAM_FLUSH_BLOCK: begin
-        mem_request_valid       = 1'b1;
-        mem_request_addr        = cpu_req_addr[29:2];
-        mem_request_rw          = 1'b1;
-        mem_request_data_valid  = 1'b1;
-        mem_request_data_mask   = 16'hFFFF;
-
+      `PREPARE_FLUSH: begin
+        //mem_request_valid       = 1'b1;
+        //mem_request_rw          = 1'b1;
+        mem_request_data_valid = 1'b1;
         if (mem_req_data_ready) begin
-          mem_request_data_bits = {sram_11_dout, sram_10_dout, sram_01_dout, sram_00_dout};
-          if (block_service == 2'b11) begin
-            next_block_service = 2'b00;
-            next_state = `WAIT_DRAM_READY;
-          end else begin
-            next_block_service = block_service + 1;
-            sram_index_walker = {index_I, block_service};
-            next_state = `WAIT_DRAM_FLUSH_BLOCK;
-          end
+          sram_index_walker       = {index_I, block_service};
+          next_block_service      = block_service + 1;
+          //mem_request_addr        = cpu_req_addr[29:2];
+          next_state              = `DRAM_WRITE;
         end else begin
-          next_state = `WAIT_DRAM_FLUSH_BLOCK;
+          next_state = `PREPARE_FLUSH;
           next_block_service = block_service;
           sram_index_walker = {index_I, block_service};
         end
+      end
 
+      `DRAM_WRITE: begin
+        //mem_request_rw          = 1'b1;
+        //mem_request_valid       = 1'b1;
+        //mem_request_data_valid = 1'b1;
+        mem_request_data_bits = {sram_11_dout, sram_10_dout, sram_01_dout, sram_00_dout};
+        mem_request_data_mask = 16'hFFFF;
+        if (block_service == 2'b00) begin
+          next_state = `WAIT_DRAM_READY;
+        end else begin
+          next_block_service  = block_service + 1;
+          sram_index_walker   = {index_I, block_service};
+          next_state          = `DRAM_WRITE;
+        end
+        //mem_request_valid       = 1'b1;
+        //mem_request_addr        = cpu_req_addr[29:2];
+        //mem_request_rw          = 1'b1;
+        //mem_request_data_valid  = 1'b1;
+        //mem_request_data_mask   = 16'hFFFF;
+
+        //if (mem_req_data_ready) begin
+        //  mem_request_data_bits = {sram_11_dout, sram_10_dout, sram_01_dout, sram_00_dout};
+        //  if (block_service == 2'b11) begin
+        //    next_block_service = 2'b00;
+        //    next_state = `WAIT_DRAM_READY;
+        //  end else begin
+        //    next_block_service = block_service + 1;
+        //    sram_index_walker = {index_I, block_service};
+        //    next_state = `WAIT_DRAM_FLUSH_BLOCK;
+        //  end
+        //end else begin
+        //  next_state = `WAIT_DRAM_FLUSH_BLOCK;
+        //  next_block_service = block_service;
+        //  sram_index_walker = {index_I, block_service};
+        //end
       end
       
       `WAIT_DRAM_READY: begin
         mem_request_valid = 1'b1;
         mem_request_addr  = cpu_req_addr[29:2];
+
         if (mem_req_ready) begin
-          next_state = `DRAM_READ;
+          //next_state = `DRAM_READ;
+          if (store_write_req && tag_dirty && ~flush_done) begin
+            sram_index_walker  = {index_I, block_service};
+            next_block_service = block_service + 1;
+            mem_request_addr   = {meta_dv_tag_out[19:0], index_I, 2'b00};
+            //mem_request_addr   = cpu_req_addr[29:2];
+            next_state = `PREPARE_FLUSH;
+          end else begin
+            next_state = `DRAM_READ;
+          end
         end else begin
           next_state = `WAIT_DRAM_READY;
         end
