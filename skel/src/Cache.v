@@ -46,7 +46,6 @@ module cache # (parameter LINES = 64,
   reg meta_wmask;
   reg [31:0] meta_dv_tag_in;
   reg [31:0] meta_dv_tag_out;
-  reg sram_00_we, sram_01_we, sram_10_we, sram_11_we;
   //reg [3:0] sram_00_wmask, sram_01_wmask, sram_10_wmask, sram_11_wmask;
   reg sram_we;
   reg sram_00_we, sram_01_we, sram_10_we, sram_11_we;
@@ -129,6 +128,7 @@ module cache # (parameter LINES = 64,
 
   reg [31:0] sram_tag_result;
 
+  wire tag_match = tag_T == meta_dv_tag_out[19:0];
   /////////////////////////////////////////////
   /////////////////////////////////////////////
   reg [31:0]  store_data;
@@ -206,7 +206,8 @@ module cache # (parameter LINES = 64,
 
 
         if (tag_valid) begin
-            if (tag_T == meta_dv_tag_out[19:0]) begin
+            //if (tag_T == meta_dv_tag_out[19:0]) begin
+            if (tag_match) begin
                 if (store_write_req) begin
                   meta_we         = 1'b1;
                   meta_wmask      = 1'b1;
@@ -240,9 +241,9 @@ module cache # (parameter LINES = 64,
               //if (write_req) next_state = tag_dirty ? `WAIT_DRAM_WRITE_READY : `WAIT_DRAM_READY;
               if (store_write_req) begin
                 if (tag_dirty) begin
-                  //sram_index_walker = {index_I, block_service};
-                  //next_block_service = block_service + 1;
-                  //next_state = `WAIT_DRAM_FLUSH_BLOCK;
+                  sram_index_walker = {index_I, block_service};
+                  next_block_service = block_service + 1;
+                  next_state = `WAIT_DRAM_FLUSH_BLOCK;
                 end
                 else next_state = `WAIT_DRAM_READY;
               end
