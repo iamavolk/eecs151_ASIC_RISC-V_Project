@@ -5,7 +5,7 @@ module RegFile (input [31:0]      data_i,
                 input             rst_i,
                 output reg [31:0] douta_o, doutb_o);
 
-  reg [31:0] regs [31];
+  reg [31:0] regs [0:31];
 
   always_comb begin
     case (raddra_i)

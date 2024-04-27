@@ -458,9 +458,9 @@ module Riscv151(input clk,
   //                  .wmask_i (4'b1111),
   //                  .data_o  (tiny_cache_data_o));
 
-  wire load_in_X = instr_X[6:0] == `OPC_LOAD;
-  wire store_in_X = instr_X[6:0] == `OPC_STORE;
-  assign dcache_re = ~stall && (load_in_X || store_in_X);
+  wire load_in_X    = instr_X[6:0] == `OPC_LOAD;
+  wire store_in_X   = instr_X[6:0] == `OPC_STORE;
+  assign dcache_re  = ~stall && (load_in_X || store_in_X);
   //assign dcache_re = 1'b1;
 
 endmodule
