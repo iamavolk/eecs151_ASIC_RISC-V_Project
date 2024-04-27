@@ -430,7 +430,7 @@ module Riscv151(input clk,
   // RegFile signals. wa = addr0, wd = data0, we is asserted unless rd = x0 
   assign wa = instr_WB[11:7];
   assign wd = res_WB;
-  assign we = (wa == X0_ADDR) ? 1'b0 : RegWEn;
+  assign we = ((wa == X0_ADDR) || (stall)) ? 1'b0 : RegWEn;
 
   ForwardingUnit forwarding (.rf_wen_X(RegWEn_X),
                              .rf_wen_WB(RegWEn),
