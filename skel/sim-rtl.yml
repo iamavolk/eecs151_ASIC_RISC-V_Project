@@ -56,8 +56,6 @@ simVerilogSrc: &SIM_VERILOG_SRC
   - "src/PCSelect.v"
   - "src/MemLoadMask.v"
   - "src/StoreMask.v"
-  - "src/WrapCtr.v"
-  - "src/TinyCache.v"
 
 #tb_name: &TB_NAME "ALUTestbench"
 #tb_name: &TB_NAME "ALUTestVectorTestbench"
