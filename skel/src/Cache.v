@@ -154,7 +154,7 @@ module cache # (parameter LINES = 64,
   /////////////////////////////////////////////
   /////////////////////////////////////////////
 
-  always_comb begin
+  always @(*) begin
     cpu_request_ready       = 1'b0;
     next_cpu_response_valid = 1'd0;
     cpu_response_data       = 32'd0;
@@ -292,6 +292,7 @@ module cache # (parameter LINES = 64,
     endcase
   end
 
+  // Nees to be rewritten in the non-blocking style, later
   wire [31:0] hold_instr;
   REGISTER_R_CE #(.N(32)) hold_instr_reg (.q(hold_instr),
                                           .d(cpu_response_data),

@@ -3,7 +3,8 @@ module mux3 #(parameter N = 32)(input  [N-1:0] in0, in1, in2,
                                 output [N-1:0] out);
   reg [N-1:0] res;
 
-  always_comb begin
+  //always_comb begin
+  always @(*) begin
     case (sel)
         2'b00: res = in0;
         2'b01: res = in1;
