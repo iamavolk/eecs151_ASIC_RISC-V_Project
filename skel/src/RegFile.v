@@ -7,8 +7,7 @@ module RegFile (input [31:0]      data_i,
 
   reg [31:0] regs [0:31];
 
-  //always_comb begin
-  always @(*) begin
+  always_comb begin
     case (raddra_i)
       5'b0:     douta_o = 5'b0;
       default:  douta_o = regs[raddra_i];

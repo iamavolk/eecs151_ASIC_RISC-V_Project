@@ -1,6 +1,6 @@
 # Specify Global Variables
-clockPeriod: &CLK_PERIOD "9.0ns"
-clockPeriodby5: &CLK_PERIOD_BY_5 "1.8" # used for pin delays, update accordingly
+clockPeriod: &CLK_PERIOD "18.0ns"
+clockPeriodby5: &CLK_PERIOD_BY_5 "3.6" # used for pin delays, update accordingly
 verilogSrc: &VERILOG_SRC
   - "src/Cache.v"
   - "src/Memory151.v"

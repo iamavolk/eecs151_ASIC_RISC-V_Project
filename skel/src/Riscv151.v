@@ -21,12 +21,32 @@ module Riscv151(input clk,
 
                 output [31:0] csr);
 
+
+  //`define X0_ADDR 5'b00000
+
   localparam X0_ADDR = 5'b00000;
   localparam DWIDTH  = 32;
   localparam CWIDTH  = 16;
   localparam HCLEAR  = 16'h0;
   
+
+  //wire [4:0] hella_cnt;
+  //WrapCtr wrap_ctr (.clk(clk),
+  //                  .reset(reset),
+  //                  .enable(1'b1),
+  //                  .count(hella_cnt));
+
   wire no_stall = ~stall;
+  //wire no_stall = 1'b1;
+  //wire no_stall = (hella_cnt != 4);
+  //wire no_stall = (hella_cnt != 4) & (hella_cnt != 5) & (hella_cnt != 6);
+  //wire no_stall = (hella_cnt[0] != 1'b0);
+
+  assign icache_re = ~stall;
+  //assign icache_re = 1'b1;
+  //assign dcache_re = ~stall;
+  //assign dcache_re = 1'b0;
+  //assign dcache_re = ~stall && ~icache_re && (instr_X[6:0] != `OPC_LOAD) && (instr_X[6:0] != `OPC_STORE);
 
   wire              csr_we;
   wire [DWIDTH-1:0] csr_dout, csr_din;
@@ -59,8 +79,9 @@ module Riscv151(input clk,
 	                                      .clk(clk));
 
   wire [DWIDTH-1:0] instr_IF;
-  assign icache_addr = no_stall ? pc_IF : pc_IF - 4; // hack, but since instr must be replayed, it's ok
-  assign instr_IF    = icache_dout;
+  //assign icache_addr = pc_IF;
+  assign icache_addr = no_stall ? pc_IF : pc_IF - 4;
+  assign instr_IF = icache_dout;
 
   wire instr_kill_control;
   wire [1:0] pc_sel_check_ID, pc_select_jalrb_WB;
@@ -70,7 +91,7 @@ module Riscv151(input clk,
 
 
   wire [DWIDTH-1:0] instr_ID;
-  wire instr_kill = (pc_IF == `PC_RESET) || instr_kill_control;
+  wire instr_kill = (pc_IF == `PC_RESET) | instr_kill_control;
   mux2 #(.N(DWIDTH)) instr_kill_mux (.in0(instr_IF),
                                      .in1(`CLEAR_NOP),
                                      .sel(instr_kill),
@@ -277,7 +298,8 @@ module Riscv151(input clk,
                                 .sel(instr_X[14]),
                                 .out(csr_X));
   assign csr_din = csr_X;
-  assign csr_we  = (instr_X[6:0] == `OPC_CSR);
+  assign csr_we = (instr_X[6:0] == `OPC_CSR);
+  //assign csr_we = (instr_X[6:0] == `OPC_CSR) & no_stall;
 
   wire [DWIDTH-1:0] alu_A;
   mux2 #(.N(DWIDTH)) alu_A_mux (.in0(fwd_branch_rs1),
@@ -322,10 +344,12 @@ module Riscv151(input clk,
                                          .mem_wea_mask_o  (dmem_mask),
                                          .data_out_o      (rs2_X_shifted));
 
-  assign dcache_we   = no_stall ? dmem_mask : 4'b0000;
-  assign dcache_din  = rs2_X_shifted;
+  assign dcache_we    = no_stall ? dmem_mask : 4'b0000;
+  //assign dcache_we    = dmem_mask;
+  //assign dcache_addr  = alu_res_X;
+  assign dcache_din   = rs2_X_shifted;
 
-  wire bubble_inside = ((instr_X == `INST_NOP) || (instr_X == `CLEAR_NOP) || (ctrl_X == HCLEAR)) ? 1'b1: 1'b0;
+  wire bubble_inside  = ((instr_X == `INST_NOP) || (instr_X == `CLEAR_NOP) || (ctrl_X == HCLEAR)) ? 1'b1: 1'b0;
 
   ////////////////////////////////////////////////////
   //
@@ -383,7 +407,7 @@ module Riscv151(input clk,
   //
   ////////////////////////////////////////////////////
 
-  assign dcache_addr = no_stall ? alu_res_X : alu_res_WB;
+  assign dcache_addr  = no_stall ? alu_res_X : alu_res_WB;
   //assign dcache_addr  = alu_res_X;
   
   wire [DWIDTH-1:0] mem_output;
@@ -395,8 +419,8 @@ module Riscv151(input clk,
                                                .mem_res_i        (mem_output),
                                                .mem_res_masked_o (mem_masked));
 
-  wire RegWEn      = ctrl_WB[0];
-  wire [1:0] WBSel = ctrl_WB[13:12];
+  wire RegWEn       = ctrl_WB[0];
+  wire [1:0] WBSel  = ctrl_WB[13:12];
 
   // Write-back selector
   wire [DWIDTH-1:0] res_WB;
@@ -431,9 +455,21 @@ module Riscv151(input clk,
                              .fw_X_br_A(fw_branch_A),
                              .fw_X_br_B(fw_branch_B));
 
-  wire load_in_X   = instr_X[6:0] == `OPC_LOAD;
-  wire store_in_X  = instr_X[6:0] == `OPC_STORE;
-  assign icache_re = ~stall;
-  assign dcache_re = ~stall && (load_in_X || store_in_X);
+
+  //wire [31:0] tiny_cache_data_o;
+  //wire [7:0]  tiny_cache_addr_i = {3'b0, hella_cnt};
+  //TinyCache tcache (.clk     (clk),
+  //                  .reset   (reset),
+  //                  .addr_i  (tiny_cache_addr_i),
+  //                  .data_i  (instr_IF),
+  //                  //.we_i    (hella_cnt == 4),
+  //                  .we_i    (1'b1),
+  //                  .wmask_i (4'b1111),
+  //                  .data_o  (tiny_cache_data_o));
+
+  wire load_in_X    = instr_X[6:0] == `OPC_LOAD;
+  wire store_in_X   = instr_X[6:0] == `OPC_STORE;
+  assign dcache_re  = ~stall && (load_in_X || store_in_X);
+  //assign dcache_re = 1'b1;
 
 endmodule

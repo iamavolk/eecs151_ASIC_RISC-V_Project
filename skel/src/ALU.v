@@ -3,8 +3,7 @@ module ALU (input  [31:0] a_i, b_i,
             output [31:0] alu_res_o);
 
   reg [31:0] res;
-  //always_comb begin
-  always @(*) begin
+  always_comb begin
       case (alu_sel_i)
           4'b0000: res = a_i + b_i;
           4'b0001: res = a_i << b_i[4:0];

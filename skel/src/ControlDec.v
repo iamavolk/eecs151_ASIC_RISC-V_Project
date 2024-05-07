@@ -7,8 +7,7 @@ module ControlDec (input  [6:0]  opcode_i,
 
   reg [15:0] ctrl_res;
   
-  //always_comb begin
-  always @(*) begin
+  always_comb begin
     case (opcode_i)
   
   	    `OPC_ARI_RTYPE: begin
