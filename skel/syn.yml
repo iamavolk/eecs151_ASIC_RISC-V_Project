@@ -1,16 +1,29 @@
 # Specify Global Variables
-clockPeriod: &CLK_PERIOD "20.0ns"
-clockPeriodby5: &CLK_PERIOD_BY_5 "4.0" # used for pin delays, update accordingly
+clockPeriod: &CLK_PERIOD "9.0ns"
+clockPeriodby5: &CLK_PERIOD_BY_5 "1.8" # used for pin delays, update accordingly
 verilogSrc: &VERILOG_SRC
-  - "src/ALUdec.v"
-  - "src/ALU.v"
   - "src/Cache.v"
   - "src/Memory151.v"
   - "src/Riscv151.v"
   - "src/riscv_arbiter.v"
   - "src/riscv_top.v"
-  # Add more source files here if you need
-
+  - "src/no_cache_mem.v"
+  - "src/ExtMemModel.v"
+  - "src/mux2.v"
+  - "src/mux3.v"
+  - "src/mux4.v"
+  - "src/EECS151.v"
+  - "src/BranchComp.v"
+  - "src/ImmGen.v"
+  - "src/ALU.v"
+  - "src/ForwardingUnit.v"
+  - "src/InstrKillID.v"
+  - "src/RegFile.v"
+  - "src/JALTargetID.v"
+  - "src/ControlDec.v"
+  - "src/PCSelect.v"
+  - "src/MemLoadMask.v"
+  - "src/StoreMask.v"
 
 # Specify clock signals
 vlsi.inputs.clocks: [
