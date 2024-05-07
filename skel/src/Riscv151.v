@@ -88,16 +88,25 @@ module Riscv151(input clk,
   wire [DWIDTH-1:0]    wd, rd1, rd2;
   wire                 we;
 
-  RegFile rf(.data_i   (wd),
-             .raddra_i (ra1),
-             .raddrb_i (ra2),
-             .waddr_i  (wa),
-             .wen_i    (we),
-             .clk_i    (clk),
-             .rst_i    (reset),
-             .douta_o  (rd1),
-             .doutb_o  (rd2));
+  //RegFile rf(.data_i   (wd),
+  //           .raddra_i (ra1),
+  //           .raddrb_i (ra2),
+  //           .waddr_i  (wa),
+  //           .wen_i    (we),
+  //           .clk_i    (clk),
+  //           .rst_i    (reset),
+  //           .douta_o  (rd1),
+  //           .doutb_o  (rd2));
 
+  ASYNC_2R1WRAM_JWSTYLE #(.DEPTH(32), .WIDTH(32)) rf2 (.clk(clk),
+                                                       .rst(reset),
+                                                       .we(we),
+                                                       .waddr0(wa),
+                                                       .wdata(wd),
+                                                       .raddr0(ra1),
+                                                       .raddr1(ra2),
+                                                       .rdata0(rd1),
+                                                       .rdata1(rd2));
   assign ra1 = instr_ID[19:15];
   assign ra2 = instr_ID[24:20];
 

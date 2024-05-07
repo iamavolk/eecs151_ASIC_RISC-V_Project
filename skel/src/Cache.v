@@ -18,26 +18,25 @@ module cache # (parameter LINES = 64,
                  output                      cpu_resp_valid,
                  output [CPU_WIDTH-1:0]      cpu_resp_data,
 
-                 output                           mem_req_valid,
-                 input                            mem_req_ready,
-                 output [WORD_ADDR_BITS-1:`ceilLog2(`MEM_DATA_BITS/CPU_WIDTH)] mem_req_addr,
+  output                           mem_req_valid, // v
+  input                            mem_req_ready,
+  output [WORD_ADDR_BITS-1:`ceilLog2(`MEM_DATA_BITS/CPU_WIDTH)] mem_req_addr, // v
+  output                           mem_req_rw, // v
+  output                           mem_req_data_valid, // v
+  input                            mem_req_data_ready,
+  output [`MEM_DATA_BITS-1:0]      mem_req_data_bits, // v
+  output [(`MEM_DATA_BITS/8)-1:0]  mem_req_data_mask, // v
 
                  output                           mem_req_rw,
                  output                           mem_req_data_valid,
                  input                            mem_req_data_ready,
                  output [`MEM_DATA_BITS-1:0]      mem_req_data_bits,
 
-                 output [(`MEM_DATA_BITS/8)-1:0]  mem_req_data_mask,
-
-                 input                            mem_resp_valid,
-                 input [`MEM_DATA_BITS-1:0]       mem_resp_data);
-
-  wire        write_req         = (| cpu_req_write);
-  wire [19:0] tag_T             = cpu_req_addr[29:10];
-  wire [5:0]  index_I           = cpu_req_addr[9:4];
-  wire [3:0]  block_offset_O    = cpu_req_addr[3:0];
-  wire [7:0]  sram_index        = {index_I, block_offset_O[3:2]};
-  wire [1:0]  phys_sram_sel     = cpu_req_addr[1:0];
+  wire [19:0] tag_T           = cpu_req_addr[29:10];
+  wire [5:0]  index_I         = cpu_req_addr[9:4];
+  wire [3:0]  block_offset_O  = cpu_req_addr[3:0];
+  wire [7:0]  sram_index      = {index_I, block_offset_O[3:2]};
+  wire [1:0]  phys_sram_sel   = cpu_req_addr[1:0];
   wire [31:0] cpu_req_addr_full = cpu_req_addr << 2;
 
   reg         meta_write;
@@ -154,22 +153,24 @@ module cache # (parameter LINES = 64,
   /////////////////////////////////////////////
   /////////////////////////////////////////////
 
-  always @(*) begin
-    cpu_request_ready       = 1'b0;
+  always_comb begin
+    cpu_request_ready  = 1'b0;
     next_cpu_response_valid = 1'd0;
     cpu_response_data       = 32'd0;
 
-    meta_write     = 1'b0;
-    meta_dv_tag_in = 32'd0;
-    sram_00_we     = 1'b0;
-    sram_01_we     = 1'b0;
-    sram_10_we     = 1'b0;
-    sram_11_we     = 1'b0;
-    sram_wmask     = 4'b0000;
+    meta_we            = 1'b0;
+    meta_wmask         = 1'b0;
+    meta_dv_tag_in     = 32'd0;
+    sram_00_we         = 1'b0;
+    sram_01_we         = 1'b0;
+    sram_10_we         = 1'b0;
+    sram_11_we         = 1'b0;
 
-    mem_request_rw    = 1'b0;
-    mem_request_valid = 1'b0;
-    mem_request_addr  = 28'd0;
+    sram_wmask         = 4'b0000;
+
+    mem_request_rw     = 1'b0;
+    mem_request_valid  = 1'b0;
+    mem_request_addr   = 28'd0;
 
     mem_request_data_valid = 1'b0; 
     mem_request_data_bits  = 128'd0;
@@ -186,30 +187,43 @@ module cache # (parameter LINES = 64,
 
       `CHECK_TAG: begin
         if (tag_valid) begin
-          if (tag_match) begin
-              if (store_write_req) begin
-                meta_write      = 1'b1;
-                meta_dv_tag_in  = {10'b0, 2'b11, tag_T};
-                sram_wmask      = store_word_mask;
-                next_state      = `IDLE;
-                case(phys_sram_sel)
-                  2'b00: begin sram_00_din = store_data; sram_00_we = 1'b1; end
-                  2'b01: begin sram_01_din = store_data; sram_01_we = 1'b1; end
-                  2'b10: begin sram_10_din = store_data; sram_10_we = 1'b1; end
-                  2'b11: begin sram_11_din = store_data; sram_11_we = 1'b1; end
-                endcase
-              end else begin
-                next_state = `IDLE;
-                next_cpu_response_valid = 1'b1;
-                case(phys_sram_sel)
-                  2'b00: cpu_response_data = sram_00_dout;
-                  2'b01: cpu_response_data = sram_01_dout;
-                  2'b10: cpu_response_data = sram_10_dout;
-                  2'b11: cpu_response_data = sram_11_dout;
-                endcase
+            if (tag_match) begin
+                if (store_write_req) begin
+                  meta_we         = 1'b1;
+                  meta_wmask      = 1'b1;
+                  meta_dv_tag_in  = {10'b0, 2'b11, tag_T};
+                  sram_wmask      = store_word_mask;
+                  next_state      = `IDLE;
+                  case(phys_sram_sel)
+                    2'b00: begin sram_00_din = store_data; sram_00_we = 1'b1; end
+                    2'b01: begin sram_01_din = store_data; sram_01_we = 1'b1; end
+                    2'b10: begin sram_10_din = store_data; sram_10_we = 1'b1; end
+                    2'b11: begin sram_11_din = store_data; sram_11_we = 1'b1; end
+                  endcase
+                end else begin
+                  next_state = `IDLE;
+                  next_cpu_response_valid = 1'b1;
+                  case(phys_sram_sel)
+                    2'b00: cpu_response_data = sram_00_dout;
+                    2'b01: cpu_response_data = sram_01_dout;
+                    2'b10: cpu_response_data = sram_10_dout;
+                    2'b11: cpu_response_data = sram_11_dout;
+                  endcase
+                end
+            end else begin
+              if (tag_dirty) begin
+                if (mem_req_ready) begin
+                  next_state = `PREPARE_FLUSH;
+                end else begin
+                  next_state = `WAIT_DRAM_READY;
+                end
               end
-          end else next_state = tag_dirty && mem_req_ready ? `PREPARE_FLUSH : `WAIT_DRAM_READY;
-        end else next_state = `WAIT_DRAM_READY;
+              else next_state = `WAIT_DRAM_READY;
+            end
+        end else begin
+          next_state = `WAIT_DRAM_READY;
+        end
+        
       end  
 
       `PREPARE_FLUSH: begin
@@ -228,22 +242,31 @@ module cache # (parameter LINES = 64,
       end
 
       `DRAM_WRITE: begin
-        mem_request_data_valid  = 1'b1;
-        mem_request_data_bits   = {sram_11_dout, sram_10_dout, sram_01_dout, sram_00_dout};
-        mem_request_data_mask   = 16'hFFFF;
-
-        if (block_service == 2'b00) next_state = `WAIT_DRAM_READY;
-        else begin
-          next_block_service    = block_service;
-          sram_index_walker     = {index_I, block_service};
-          next_state            = `PREPARE_FLUSH;
+        mem_request_data_valid = 1'b1;
+        mem_request_data_bits = {sram_11_dout, sram_10_dout, sram_01_dout, sram_00_dout};
+        mem_request_data_mask = 16'hFFFF;
+        if (block_service == 2'b00) begin
+          next_state = `WAIT_DRAM_READY;
+        end else begin
+          next_block_service  = block_service;
+          sram_index_walker   = {index_I, block_service};
+          next_state          = `PREPARE_FLUSH;
         end
       end
       
       `WAIT_DRAM_READY: begin
         mem_request_valid = 1'b1;
         mem_request_addr  = cpu_req_addr[29:2];
-        next_state = mem_req_ready ? ((tag_dirty && ~flush_done) ? `PREPARE_FLUSH : `DRAM_READ) : `WAIT_DRAM_READY;
+
+        if (mem_req_ready) begin
+          if (tag_dirty && ~flush_done) begin
+            next_state = `PREPARE_FLUSH;
+          end else begin
+            next_state = `DRAM_READ;
+          end
+        end else begin
+          next_state = `WAIT_DRAM_READY;
+        end
       end
 
       `DRAM_READ: begin
@@ -273,7 +296,11 @@ module cache # (parameter LINES = 64,
       end
 
       `SETTLE: begin
-        next_state = store_write_req ? `CHECK_TAG : `GIVE_TO_CPU;
+        if (store_write_req) begin
+          next_state = `CHECK_TAG;
+        end else begin
+          next_state = `GIVE_TO_CPU;
+        end
       end
 
       `GIVE_TO_CPU: begin
@@ -292,7 +319,18 @@ module cache # (parameter LINES = 64,
     endcase
   end
 
-  // Nees to be rewritten in the non-blocking style, later
+  always @(posedge clk) begin
+    if (reset) begin
+      block_service       <= 2'b00;
+      state               <= `IDLE;
+      cpu_response_valid  <= 1'd0;
+    end else begin
+      state               <= next_state;
+      block_service       <= next_block_service;
+      cpu_response_valid  <= next_cpu_response_valid;
+    end
+  end
+
   wire [31:0] hold_instr;
   REGISTER_R_CE #(.N(32)) hold_instr_reg (.q(hold_instr),
                                           .d(cpu_response_data),
