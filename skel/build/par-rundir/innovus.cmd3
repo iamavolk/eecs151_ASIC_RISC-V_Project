@@ -1,0 +1,59 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Wed Jun 26 08:33:10 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+#@(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+#@(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+#@(#)CDS: CPE v18.10-p005
+#@(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+
+set_db design_process_node 130
+set_multi_cpu_usage -local_cpu 4
+read_db latest
+set_layer_preference node_layer -is_visible 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page 1 0
+gui_pan_page 1 0
+gui_pan_page 0 1
+gui_pan_page 0 1
+gui_pan_page 0 1
+gui_select -point {831.522 99.289}
+gui_pan_page 0 1
+gui_pan_page 0 1
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page 0 -1
+gui_pan_page 0 -1
+gui_pan_page 1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page -1 0
+gui_pan_page 0 1
+gui_pan_page 0 1
+gui_pan_page -1 0
+gui_pan_page 1 0
+gui_select -point {794.222 841.671}

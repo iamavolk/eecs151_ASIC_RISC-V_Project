@@ -1,0 +1,39 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+Options:	-common_ui -win -files /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl 
+Date:		Sun Jul 21 08:35:47 2024
+Host:		eda-4.EECS.Berkeley.EDU (x86_64 w/Linux 4.18.0-553.8.1.el8_10.x86_64) (48cores*96cpus*AMD EPYC 9454 48-Core Processor 1024KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		invs	Innovus Implementation System	18.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+**ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /home/ff/eecs151/hammer-tools/cadence/INNOVUS/INNOVUS191/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+
+***************************************************************************************
+***************************************************************************************
+
+Create and set the environment variable TMPDIR to /tmp/innovus_temp_2567934_eda-4.EECS.Berkeley.EDU_cs199-aly_orKYRG.
+
+Change the soft stacksize limit to 0.2%RAM (1546 mbytes). Set global soft_stack_size_limit to change the value.
+Qt-subapplication: Fatal IO error: client killed
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Sun Jul 21 08:37:15 2024
+  Total CPU time:     0:00:07
+  Total real time:    0:01:29
+  Peak memory (main): 524.17MB
+
+
+*** Memory Usage v#1 (Current mem = 565.426M, initial mem = 266.562M) ***
+*** Message Summary: 0 warning(s), 3 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:07.8, real=0:01:28, mem=565.4M) ---

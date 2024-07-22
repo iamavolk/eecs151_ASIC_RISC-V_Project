@@ -1,0 +1,13 @@
+FORMATVERSION 1
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_75 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1251 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_76 1 addPortAsNeeded
+INSTTERM DIODE mem/icache/FE_OFN6747_FE_OFN6590_FE_OFN6521_n -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_77 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6288_sram_11_dout_23 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_78 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6345_sram_10_dout_7 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_79 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6044_sram_10_dout_8 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_80 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[86] -

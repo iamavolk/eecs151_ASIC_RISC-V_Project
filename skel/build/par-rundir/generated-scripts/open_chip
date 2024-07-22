@@ -1,0 +1,5 @@
+#!/bin/bash
+        cd /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir
+        source enter
+        $INNOVUS_BIN -common_ui -win -files /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl
+                

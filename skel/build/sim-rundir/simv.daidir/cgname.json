@@ -1,0 +1,50 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "cache": [
+        "cache",
+        "IPJ57",
+        "module",
+        2
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ],
+    "riscv_top": [
+        "riscv_top",
+        "DKG4c",
+        "module",
+        3
+    ],
+    "rocketTestHarness": [
+        "rocketTestHarness",
+        "H8tis",
+        "module",
+        4
+    ],
+    "gen_oa21i0": [
+        "gen_oa21i0",
+        "c2JdT",
+        "udp",
+        7
+    ],
+    "sram22_256x32m4w8": [
+        "sram22_256x32m4w8",
+        "ZnHIc",
+        "module",
+        5
+    ],
+    "gen_and1": [
+        "gen_and1",
+        "zTfCi",
+        "udp",
+        8
+    ]
+}

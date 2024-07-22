@@ -1,0 +1,36 @@
+catch { setDesignMode -flowEffort standard }
+catch { setDesignMode -process 130 }
+catch { setAnalysisMode -analysisType onChipVariation }
+catch { setAnalysisMode -cppr both }
+catch { setOptMode -checkRoutingCongestion true }
+catch { setOptMode -clkGateAware false }
+catch { setOptMode -fixFanoutLoad true }
+catch { setOptMode -holdTargetSlack 0.1 }
+catch { setOptMode -honorFence true }
+catch { setOptMode -postRouteAreaReclaim setupAware }
+catch { setOptMode -reclaimArea true }
+catch { setOptMode -setupTargetSlack 0.1 }
+catch { setOptMode -verbose true }
+setExtractRCMode  -engine preRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3
+catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "true"}
+catch {setNanoRouteMode -quiet -drouteUseMultiCutViaEffort "medium"}
+catch {setNanoRouteMode -quiet -hfrouteSearchRepair "true"}
+catch {setNanoRouteMode -quiet -routeAntennaCellName "sky130_fd_sc_hd__diode_2"}
+catch {setNanoRouteMode -quiet -routeConcurrentMinimizeViaCountEffort "high"}
+catch {setNanoRouteMode -quiet -routeInsertAntennaDiode true}
+catch {setNanoRouteMode -quiet -routeWithSiDriven true}
+catch {setNanoRouteMode -quiet -routeWithTimingDriven true}
+
+catch { setPlaceMode -place_detail_check_cut_spacing true }
+catch { setPlaceMode -place_global_cong_effort high }
+catch { setPlaceMode -place_global_place_io_pins true }
+catch { setPlaceMode -place_global_solver_effort high }
+catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepFlatten true }
+catch { setDelayCalMode -engine aae }
+catch { setEndCapMode -boundary_tap true }
+catch { setEndCapMode -leftEdge sky130_fd_sc_hd__tap_1 }
+catch { setEndCapMode -rightEdge sky130_fd_sc_hd__tap_1 }
+catch { setFPlanMode -defaultPowerDomainSite true }
+catch { setFPlanMode -maxIoHeight true }
+catch { setFPlanMode -powerRailLayer {} }
+catch { setFPlanMode -snapDieGrid manufacturing }

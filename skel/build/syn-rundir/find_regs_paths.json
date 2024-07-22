@@ -1,0 +1,5946 @@
+[
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/alu_X_WB/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_reg/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_uImm_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_uImm_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_uImm_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_uImm_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/csr_uImm_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_X_WB/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_X_WB/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/ctrl_X_WB/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/imm_ID_X/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_ID_X/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/instr_X_WB/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_ID_X/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_IF_ID/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_X_WB/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_reg/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_sel_jal_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/pc_select_X_WB/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[0].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[1].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[2].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[3].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[4].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[5].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[6].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[7].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[8].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[9].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[10].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[11].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[12].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[13].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[14].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[15].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[16].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[17].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[18].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[19].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[20].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[21].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[22].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[23].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[24].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[25].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[26].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[27].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[28].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[29].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[30].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rf2/\\genblk1[31].reg_x\\/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs1_ID_X/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "cpu/rs2_ID_X/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/hold_instr_reg/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_data_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_word_mask_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_word_mask_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_word_mask_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\store_word_mask_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\block_service_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\block_service_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/flush_done_reg",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/store_write_req_reg",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\state_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\state_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/dcache/\\state_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[12]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[7]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[8]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[9]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[10]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[11]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[6]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[31]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[19]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[21]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[22]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[23]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[24]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[16]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[25]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[26]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[27]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[28]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[29]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[30]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[20]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[4]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[5]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[13]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[14]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[15]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[17]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[18]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/hold_instr_reg/\\q_reg[3]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/flush_done_reg",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/\\state_reg[0]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/\\state_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/\\state_reg[2]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/\\block_service_reg[1]",
+    "pin": "Q"
+  },
+  {
+    "path": "mem/icache/\\block_service_reg[0]",
+    "pin": "Q"
+  }
+]

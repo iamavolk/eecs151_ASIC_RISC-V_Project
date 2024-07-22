@@ -1,0 +1,9 @@
+{
+    "vlsi.builtins.is_complete": false,
+    "sim.outputs.waveforms": [],
+    "sim.outputs.saifs": [],
+    "sim.outputs.output_top_module": "rocketTestHarness",
+    "sim.outputs.output_tb_name": "rocketTestHarness",
+    "sim.outputs.output_tb_dut": "dut",
+    "sim.outputs.output_level": "rtl"
+}

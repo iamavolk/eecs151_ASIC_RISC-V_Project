@@ -1,0 +1,1722 @@
+{
+    "vlsi.inputs.sram_parameters": [
+        {
+            "type": "sram",
+            "name": "sram22_1024x32m8w8",
+            "source": "sram22",
+            "depth": "1024",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 8,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_64x32m4w32",
+            "source": "sram22",
+            "depth": "64",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_1024x32m8w32",
+            "source": "sram22",
+            "depth": "1024",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 8,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_512x32m4w32",
+            "source": "sram22",
+            "depth": "512",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_2048x32m8w8",
+            "source": "sram22",
+            "depth": "2048",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 8,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_512x32m4w8",
+            "source": "sram22",
+            "depth": "512",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_4096x32m8w8",
+            "source": "sram22",
+            "depth": "4096",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 8,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_64x4m4w2",
+            "source": "sram22",
+            "depth": "64",
+            "width": 4,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 2,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_256x32m4w8",
+            "source": "sram22",
+            "depth": "256",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_4096x8m8w8",
+            "source": "sram22",
+            "depth": "4096",
+            "width": 8,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 8,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_64x32m4w8",
+            "source": "sram22",
+            "depth": "64",
+            "width": 32,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_64x24m4w24",
+            "source": "sram22",
+            "depth": "64",
+            "width": 24,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high"
+                }
+            ]
+        },
+        {
+            "type": "sram",
+            "name": "sram22_512x64m4w8",
+            "source": "sram22",
+            "depth": "512",
+            "width": 64,
+            "family": "1rw",
+            "mask": "true",
+            "vt": "svt",
+            "mux": 4,
+            "ports": [
+                {
+                    "address port name": "addr",
+                    "address port polarity": "active high",
+                    "clock port name": "clk",
+                    "clock port polarity": "active high",
+                    "write enable port name": "we",
+                    "write enable port polarity": "active high",
+                    "output port name": "dout",
+                    "output port polarity": "active high",
+                    "input port name": "din",
+                    "input port polarity": "active high",
+                    "mask port name": "wmask",
+                    "mask granularity": 8,
+                    "mask port polarity": "active high"
+                }
+            ]
+        }
+    ],
+    "vlsi.core.technology": "hammer.technology.sky130",
+    "technology.sky130.sky130A": "/home/ff/eecs151/fa23/pdk_mod/lab3/sky130A",
+    "technology.sky130.sram22_sky130_macros": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011",
+    "vlsi.core.max_threads": 4,
+    "vlsi.inputs.supplies.VDD": "1.8 V",
+    "vlsi.inputs.power_spec_mode": "auto",
+    "vlsi.inputs.power_spec_type": "cpf",
+    "vlsi.inputs.mmmc_corners": [
+        {
+            "name": "ss_100C_1v60",
+            "type": "setup",
+            "voltage": "1.60 V",
+            "temp": "100 C"
+        },
+        {
+            "name": "ff_n40C_1v95",
+            "type": "hold",
+            "voltage": "1.95 V",
+            "temp": "-40 C"
+        }
+    ],
+    "vlsi.core.sram_generator_tool": "hammer.technology.sky130.sram_compiler",
+    "vlsi.core.synthesis_tool": "hammer.synthesis.genus",
+    "synthesis.genus.version": "191",
+    "vlsi.core.par_tool": "hammer.par.innovus",
+    "par.innovus.version": "191",
+    "par.innovus.design_flow_effort": "standard",
+    "par.inputs.gds_merge": true,
+    "vlsi.core.drc_tool": "hammer.drc.calibre",
+    "vlsi.core.lvs_tool": "hammer.lvs.calibre",
+    "drc.calibre.calibre_drc_bin": "/share/instsww/mgc/CALIBRE/bin/calibre",
+    "drc.calibre.calibredrv_bin": "/share/instsww/mgc/CALIBRE/bin/calibredrv",
+    "drc.calibre.MGC_HOME": "/shared/instsww/mgc",
+    "lvs.calibre.calibre_lvs_bin": "/share/instsww/mgc/CALIBRE/bin/calibre",
+    "lvs.calibre.calibredrv_bin": "/share/instsww/mgc/CALIBRE/bin/calibredrv",
+    "lvs.calibre.v2lvs_bin": "/share/instsww/mgc/CALIBRE/bin/v2lvs",
+    "lvs.calibre.MGC_HOME": "/shared/instsww/mgc",
+    "vlsi.core.sim_tool": "hammer.sim.vcs",
+    "sim.vcs.version": "P-2019.06",
+    "vlsi.core.power_tool": "hammer.power.voltus",
+    "power.voltus.version": "181",
+    "vlsi.core.build_system": "make",
+    "par.power_straps_mode": "generate",
+    "par.generate_power_straps_method": "by_tracks",
+    "par.blockage_spacing": 2.0,
+    "par.blockage_spacing_top_layer": "met3",
+    "par.generate_power_straps_options.by_tracks.strap_layers": [
+        "met2",
+        "met3",
+        "met4",
+        "met5"
+    ],
+    "par.generate_power_straps_options.by_tracks.blockage_spacing_met2": 4.0,
+    "par.generate_power_straps_options.by_tracks.track_width": 6,
+    "par.generate_power_straps_options.by_tracks.track_width_met5": 2,
+    "par.generate_power_straps_options.by_tracks.track_spacing": 1,
+    "par.generate_power_straps_options.by_tracks.track_start": 10,
+    "par.generate_power_straps_options.by_tracks.track_start_met5": 1,
+    "par.generate_power_straps_options.by_tracks.power_utilization": 0.2,
+    "par.generate_power_straps_options.by_tracks.power_utilization_met2": 0.05,
+    "par.generate_power_straps_options.by_tracks.power_utilization_met5": 0.5,
+    "vlsi.technology.extra_libraries": [
+        {
+            "library": {
+                "name": "sram22_1024x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x32m4w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_1024x32m8w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x32m4w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_2048x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_4096x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x4m4w2",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_256x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_4096x8m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x24m4w24",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x64m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "slow",
+                    "pmos": "slow",
+                    "temperature": "100.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.6 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_1024x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x32m4w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_1024x32m8w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x32m4w32",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_2048x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_4096x32m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x4m4w2",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_256x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_4096x8m8w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x32m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_64x24m4w24",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        },
+        {
+            "library": {
+                "name": "sram22_512x64m4w8",
+                "ccs_liberty_file": null,
+                "ccs_library_file": null,
+                "ecsm_liberty_file": null,
+                "ecsm_library_file": null,
+                "corner": {
+                    "nmos": "fast",
+                    "pmos": "fast",
+                    "temperature": "-40.0 C"
+                },
+                "itf_files": null,
+                "lef_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.lef",
+                "klayout_techfile": null,
+                "spice_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.spice",
+                "gds_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.gds",
+                "milkyway_lib_in_dir": null,
+                "milkyway_techfile": null,
+                "nldm_liberty_file": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8_tt_025C_1v80.rc.lib",
+                "nldm_library_file": null,
+                "openaccess_techfile": null,
+                "provides": [
+                    {
+                        "lib_type": "sram",
+                        "vt": "svt"
+                    }
+                ],
+                "qrc_techfile": null,
+                "supplies": {
+                    "GND": "0 V",
+                    "VDD": "1.95 V"
+                },
+                "tluplus_files": null,
+                "tluplus_map_file": null,
+                "verilog_sim": "/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.v",
+                "verilog_synth": null,
+                "spice_model_file": null,
+                "power_grid_library": null,
+                "extra_prefixes": null
+            }
+        }
+    ],
+    "clockPeriod": "18.0ns",
+    "clockPeriodby5": "3.6",
+    "verilogSrc": [
+        "src/Cache.v",
+        "src/Memory151.v",
+        "src/Riscv151.v",
+        "src/riscv_arbiter.v",
+        "src/riscv_top.v",
+        "src/no_cache_mem.v",
+        "src/ExtMemModel.v",
+        "src/mux2.v",
+        "src/mux3.v",
+        "src/mux4.v",
+        "src/EECS151.v",
+        "src/BranchComp.v",
+        "src/ImmGen.v",
+        "src/ALU.v",
+        "src/ForwardingUnit.v",
+        "src/InstrKillID.v",
+        "src/RegFile.v",
+        "src/JALTargetID.v",
+        "src/ControlDec.v",
+        "src/PCSelect.v",
+        "src/MemLoadMask.v",
+        "src/StoreMask.v"
+    ],
+    "vlsi.inputs.clocks": [
+        {
+            "name": "clk",
+            "period": "18.0ns",
+            "uncertainty": "0.1ns"
+        }
+    ],
+    "vlsi.inputs.delays": [
+        {
+            "name": "mem*",
+            "clock": "clk",
+            "direction": "input",
+            "delay": "3.6"
+        }
+    ],
+    "synthesis.inputs.top_module": "riscv_top",
+    "synthesis.inputs.input_files": [
+        "src/Cache.v",
+        "src/Memory151.v",
+        "src/Riscv151.v",
+        "src/riscv_arbiter.v",
+        "src/riscv_top.v",
+        "src/no_cache_mem.v",
+        "src/ExtMemModel.v",
+        "src/mux2.v",
+        "src/mux3.v",
+        "src/mux4.v",
+        "src/EECS151.v",
+        "src/BranchComp.v",
+        "src/ImmGen.v",
+        "src/ALU.v",
+        "src/ForwardingUnit.v",
+        "src/InstrKillID.v",
+        "src/RegFile.v",
+        "src/JALTargetID.v",
+        "src/ControlDec.v",
+        "src/PCSelect.v",
+        "src/MemLoadMask.v",
+        "src/StoreMask.v"
+    ],
+    "synthesis.outputs.output_files": [
+        "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.v"
+    ],
+    "synthesis.outputs.sdc": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.sdc",
+    "synthesis.outputs.seq_cells": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/find_regs_cells.json",
+    "synthesis.outputs.all_regs": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/find_regs_paths.json",
+    "synthesis.outputs.sdf_file": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.sdf",
+    "vlsi.inputs.placement_constraints": [
+        {
+            "path": "riscv_top",
+            "type": "toplevel",
+            "margins": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+            },
+            "x": 0,
+            "y": 0,
+            "width": 1800,
+            "height": 1800
+        },
+        {
+            "path": "riscv_top/mem/icache/meta",
+            "type": "hardmacro",
+            "x": 500,
+            "y": 1200,
+            "orientation": "r0",
+            "top_layer": "M4"
+        },
+        {
+            "path": "riscv_top/mem/dcache/meta",
+            "type": "hardmacro",
+            "x": 750,
+            "y": 115,
+            "orientation": "r180",
+            "top_layer": "M4"
+        },
+        {
+            "path": "riscv_top/mem/icache/sram_00",
+            "type": "hardmacro",
+            "x": 5,
+            "y": 905,
+            "orientation": "r90",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/icache/sram_01",
+            "type": "hardmacro",
+            "x": 1235,
+            "y": 905,
+            "orientation": "r270",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/icache/sram_10",
+            "type": "hardmacro",
+            "x": 5,
+            "y": 1200,
+            "orientation": "r90",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/icache/sram_11",
+            "type": "hardmacro",
+            "x": 1235,
+            "y": 1200,
+            "orientation": "r270",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/dcache/sram_00",
+            "type": "hardmacro",
+            "x": 5,
+            "y": 315,
+            "orientation": "r90",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/dcache/sram_01",
+            "type": "hardmacro",
+            "x": 1235,
+            "y": 315,
+            "orientation": "r270",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/dcache/sram_10",
+            "type": "hardmacro",
+            "x": 5,
+            "y": 610,
+            "orientation": "r90",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/mem/dcache/sram_11",
+            "type": "hardmacro",
+            "x": 1235,
+            "y": 610,
+            "orientation": "r270",
+            "top_layer": "M3"
+        },
+        {
+            "path": "riscv_top/place_obs_bottom",
+            "type": "obstruction",
+            "obs_types": [
+                "place"
+            ],
+            "x": 0,
+            "y": 0,
+            "width": 1800,
+            "height": 1.08
+        }
+    ],
+    "vlsi.inputs.pin_mode": "generated",
+    "vlsi.inputs.pin.generate_mode": "semi_auto",
+    "vlsi.inputs.pin.assignments": [
+        {
+            "pins": "*",
+            "layers": [
+                "met2",
+                "met4"
+            ],
+            "side": "bottom",
+            "top": null
+        }
+    ],
+    "par.innovus.use_cco": true,
+    "par.inputs.input_files": [
+        "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.v"
+    ],
+    "par.inputs.top_module": "riscv_top",
+    "par.inputs.post_synth_sdc": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.sdc",
+    "par.outputs.output_ilms": [],
+    "par.outputs.output_ilms_meta": "append",
+    "vlsi.inputs.ilms": [],
+    "vlsi.inputs.ilms_meta": "append",
+    "par.outputs.output_gds": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.gds",
+    "par.outputs.output_netlist": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.lvs.v",
+    "par.outputs.output_sim_netlist": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.sim.v",
+    "par.outputs.hcells_list": [],
+    "par.outputs.seq_cells": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/find_regs_cells.json",
+    "par.outputs.all_regs": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/find_regs_paths.json",
+    "par.outputs.sdf_file": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.par.sdf",
+    "par.outputs.spefs": [
+        "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.ss_100C_1v60.par.spef",
+        "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/riscv_top.ff_n40C_1v95.par.spef"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "vlsi.builtins.is_complete": false,
+    "synthesis.outputs.output_files": [
+        "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.v"
+    ],
+    "synthesis.inputs.input_files": [
+        "src/Cache.v",
+        "src/Memory151.v",
+        "src/Riscv151.v",
+        "src/riscv_arbiter.v",
+        "src/riscv_top.v",
+        "src/no_cache_mem.v",
+        "src/ExtMemModel.v",
+        "src/mux2.v",
+        "src/mux3.v",
+        "src/mux4.v",
+        "src/EECS151.v",
+        "src/BranchComp.v",
+        "src/ImmGen.v",
+        "src/ALU.v",
+        "src/ForwardingUnit.v",
+        "src/InstrKillID.v",
+        "src/RegFile.v",
+        "src/JALTargetID.v",
+        "src/ControlDec.v",
+        "src/PCSelect.v",
+        "src/MemLoadMask.v",
+        "src/StoreMask.v"
+    ],
+    "synthesis.inputs.top_module": "riscv_top",
+    "synthesis.outputs.sdc": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.sdc",
+    "synthesis.outputs.seq_cells": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/find_regs_cells.json",
+    "synthesis.outputs.all_regs": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/find_regs_paths.json",
+    "synthesis.outputs.sdf_file": "/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir/riscv_top.mapped.sdf"
+}

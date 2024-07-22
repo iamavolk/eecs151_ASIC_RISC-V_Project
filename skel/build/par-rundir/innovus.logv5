@@ -1,0 +1,826 @@
+[07/18 09:50:38      0s] 
+[07/18 09:50:38      0s] Cadence Innovus(TM) Implementation System.
+[07/18 09:50:38      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[07/18 09:50:38      0s] 
+[07/18 09:50:38      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[07/18 09:50:38      0s] Options:	-common_ui -win -files /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl 
+[07/18 09:50:38      0s] Date:		Thu Jul 18 09:50:38 2024
+[07/18 09:50:38      0s] Host:		eda-4.EECS.Berkeley.EDU (x86_64 w/Linux 4.18.0-553.8.1.el8_10.x86_64) (48cores*96cpus*AMD EPYC 9454 48-Core Processor 1024KB)
+[07/18 09:50:38      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[07/18 09:50:38      0s] 
+[07/18 09:50:38      0s] License:
+[07/18 09:50:38      0s] 		invs	Innovus Implementation System	18.1	checkout succeeded
+[07/18 09:50:38      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[07/18 09:51:19      3s] 
+[07/18 09:51:19      3s] ***************************************************************************************
+[07/18 09:51:19      3s] ***************************************************************************************
+[07/18 09:51:19      3s] 
+[07/18 09:51:37      7s] @(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[07/18 09:51:37      7s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[07/18 09:51:37      7s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[07/18 09:51:37      7s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[07/18 09:51:37      7s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[07/18 09:51:37      7s] @(#)CDS: CPE v18.10-p005
+[07/18 09:51:37      7s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[07/18 09:51:37      7s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[07/18 09:51:37      7s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[07/18 09:51:37      7s] @(#)CDS: RCDB 11.13
+[07/18 09:51:37      7s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_293493_eda-4.EECS.Berkeley.EDU_cs199-aly_zZeqkP.
+
+[07/18 09:51:37      7s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_293493_eda-4.EECS.Berkeley.EDU_cs199-aly_zZeqkP.
+[07/18 09:51:37      7s] 
+[07/18 09:51:37      7s] Change the soft stacksize limit to 0.2%RAM (1546 mbytes). Set global soft_stack_size_limit to change the value.
+[07/18 09:51:55      8s] 
+[07/18 09:51:55      8s] **INFO:  MMMC transition support version v31-84 
+[07/18 09:51:55      8s] 
+[07/18 09:51:56      8s] #@ Processing -files option
+[07/18 09:51:56      8s] @innovus 1> source /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl
+[07/18 09:51:56      8s] #@ Begin verbose source /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl
+[07/18 09:51:56      8s] @file(open_chip.tcl) 8: puts "set_db design_process_node 130" 
+[07/18 09:51:56      8s] set_db design_process_node 130
+[07/18 09:51:56      8s] @file(open_chip.tcl) 9: set_db design_process_node 130
+[07/18 09:51:56      8s] Applying the recommended capacitance filtering threshold values for 130nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.4.
+[07/18 09:51:56      8s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[07/18 09:51:56      8s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[07/18 09:51:56      8s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'standard'.
+[07/18 09:51:56      8s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode is 'low'.
+[07/18 09:51:56      8s] Updating process node dependent CCOpt properties for the 130nm process node.
+[07/18 09:51:56      8s] @file(open_chip.tcl) 10: puts "set_multi_cpu_usage -local_cpu 4" 
+[07/18 09:51:56      8s] set_multi_cpu_usage -local_cpu 4
+[07/18 09:51:56      8s] @file(open_chip.tcl) 11: set_multi_cpu_usage -local_cpu 4
+[07/18 09:51:56      8s] @file(open_chip.tcl) 12: read_db latest
+[07/18 09:51:56      8s] #% Begin read_db load design ... (date=07/18 09:51:56, mem=557.2M)
+[07/18 09:51:56      8s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[07/18 09:51:56      8s] 
+[07/18 09:51:56      8s] Applying the recommended capacitance filtering threshold values for 130nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.4.
+[07/18 09:51:56      8s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[07/18 09:51:56      8s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[07/18 09:51:56      8s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'standard'.
+[07/18 09:51:56      8s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode is 'low'.
+[07/18 09:51:56      8s] Updating process node dependent CCOpt properties for the 130nm process node.
+[07/18 09:51:56      8s] Set Default Input Pin Transition as 0.1 ps.
+[07/18 09:51:56      8s] Loading design 'riscv_top' saved by 'Innovus' '18.10-p002_1' on 'Wed Jun 26 03:14:46 2024'.
+[07/18 09:51:56      8s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[07/18 09:51:56      8s] 
+[07/18 09:51:56      8s] Threads Configured:4
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'X' of cell 'sky130_fd_sc_hd__a2111o_1' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'X' of cell 'sky130_fd_sc_hd__a2111o_2' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'X' of cell 'sky130_fd_sc_hd__a2111o_4' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'sky130_fd_sc_hd__a2111oi_0' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'sky130_fd_sc_hd__a2111oi_1' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'sky130_fd_sc_hd__a2111oi_2' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'sky130_fd_sc_hd__a2111oi_4' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'X' of cell 'sky130_fd_sc_hd__a211o_1' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82150)
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82284)
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82418)
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82695)
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82829)
+[07/18 09:51:56     10s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, Line 82963)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_8'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_6'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_bleeder_1'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__diode_2'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_8'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_6'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_4'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_3'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_12'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] Read 428 cells in library sky130_fd_sc_hd__ss_100C_1v60.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 4894 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN_H' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'PAD' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__gpiov2_pad_wrapped_ss_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'AMUXBUS_A' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'AMUXBUS_A' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'AMUXBUS_B' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'AMUXBUS_B' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'AMUXBUS_A' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'AMUXBUS_A' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_capacitance' on 'output/inout' pin 'AMUXBUS_B' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'AMUXBUS_B' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is not defined in the library. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vdda_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vssa_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ss_100C_1v60_3v00.lib, Line 167)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vssd_lvc_clamped3_pad_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib, Line 156)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 4894 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN_H' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'PAD' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_gpiov2_ss_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_ground_hvc_wpad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_ss_100C_1v60_3v00.lib, Line 191)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_ground_lvc_wpad_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_hvc_wpad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_power_hvc_wpad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_ss_100C_1v60_3v00_3v00.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_power_lvc_wpad_ss_100C_1v60_3v00_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ss_ss_100C_1v60_3v00.lib.
+[07/18 09:51:56     10s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 869 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'XRES_H_N' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_xres4v2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ss_ss_100C_1v60_3v00.lib)
+[07/18 09:51:56     10s] Read 1 cells in library sky130_fd_io__top_xres4v2_ss_ss_100C_1v60_3v00.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_1024x32m8w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_64x32m4w32.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_1024x32m8w32.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_512x32m4w32.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_2048x32m8w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_512x32m4w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_4096x32m8w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_64x4m4w2.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_256x32m4w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_4096x8m8w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_64x32m4w8.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_64x24m4w24.
+[07/18 09:51:56     10s] Reading ss_100C_1v60.setup_set timing library /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8_tt_025C_1v80.rc.lib.
+[07/18 09:51:56     10s] Read 1 cells in library sram22_512x64m4w8.
+[07/18 09:51:56     10s] Library reading multithread flow ended. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib)
+[07/18 09:51:56     10s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[07/18 09:51:56     10s] 
+[07/18 09:51:56     10s] Threads Configured:4
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib.
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 294922)
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 295592)
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 296262)
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 297611)
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 298281)
+[07/18 09:51:57     12s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VNB' has been read in the cell 'sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'. The attribute 'related_bias_pin' specified for the pin 'VGND' is being ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 298951)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_8'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_6'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_4'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_3'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_decapkapwr_12'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__lpflow_bleeder_1'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__diode_2'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-302):	No function defined for cell 'sky130_fd_sc_hd__decap_8'. The cell will only be used for analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] Message <TECHLIB-302> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[07/18 09:51:57     12s] Read 428 cells in library sky130_fd_sc_hd__ff_n40C_1v95.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 8827 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'ENABLE_INP_H' on cell 'sky130_ef_io__gpiov2_pad_wrapped'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib, Line 2134)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'HLD_H_N' on cell 'sky130_ef_io__gpiov2_pad_wrapped'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib, Line 3338)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN_H' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'PAD' with 'interface_timing' attribute set to true on cell 'sky130_ef_io__gpiov2_pad_wrapped'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1320):	The user-defined attribute 'related_spice_node' is not present in any of the 'ccsn_first_stage' group. This attribute is required for Tempus if SPICE correlation of ROP glitch needs to be performed. The missing attribute does not affect SI delay or glitch analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_wrapped_ff_ff_n40C_1v95_5v50.lib, Line 18)
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vccd_lvc_clamped3_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vdda_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vssa_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ff_n40C_1v95_5v50.lib, Line 167)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vssd_lvc_clamped3_pad_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib, Line 156)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 8827 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'ENABLE_INP_H' on cell 'sky130_fd_io__top_gpiov2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib, Line 2134)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'HLD_H_N' on cell 'sky130_fd_io__top_gpiov2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib, Line 3338)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'IN_H' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'PAD' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_gpiov2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1320):	The user-defined attribute 'related_spice_node' is not present in any of the 'ccsn_first_stage' group. This attribute is required for Tempus if SPICE correlation of ROP glitch needs to be performed. The missing attribute does not affect SI delay or glitch analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_ff_ff_n40C_1v95_5v50.lib, Line 18)
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_ground_hvc_wpad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'always_on' encountered. The last definition will be retained. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_ff_n40C_1v95_5v50.lib, Line 191)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_ground_lvc_wpad_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_hvc_wpad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_power_hvc_wpad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_ff_n40C_1v95_5v50_5v50.lib.
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_power_lvc_wpad_ff_n40C_1v95_5v50_5v50.
+[07/18 09:51:57     12s] Reading ff_n40C_1v95.hold_set timing library /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 2506 is defined after at least one cell definition. The attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_first_stage' group in pin 'PULLUP_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2362)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'PULLUP_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2362)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_last_stage' group in pin 'PULLUP_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2365)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_last_stage' group in pin 'PULLUP_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2365)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_first_stage' group in pin 'TIE_WEAK_HI_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2390)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'TIE_WEAK_HI_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2390)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_last_stage' group in pin 'TIE_WEAK_HI_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2393)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_last_stage' group in pin 'TIE_WEAK_HI_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2393)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_last_stage' group in pin 'TIE_LO_ESD' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2405)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_last_stage' group in pin 'TIE_LO_ESD' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2405)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_last_stage' group in pin 'TIE_HI_ESD' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2417)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_last_stage' group in pin 'TIE_HI_ESD' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2417)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_first_stage' group in pin 'PAD_A_ESD_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2442)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_first_stage' group in pin 'PAD_A_ESD_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2442)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_rise' is not specified in the 'ccsn_last_stage' group in pin 'PAD_A_ESD_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2445)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1334):	The group 'output_voltage_fall' is not specified in the 'ccsn_last_stage' group in pin 'PAD_A_ESD_H' on cell 'sky130_fd_io__top_xres4v2'. This may impact analysis accuracy. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 2445)
+[07/18 09:51:57     12s] Message <TECHLIB-1334> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-905):	Found a function attribute specified on pin 'XRES_H_N' with 'interface_timing' attribute set to true on cell 'sky130_fd_io__top_xres4v2'. As per the liberty standard, a function attribute should not be specified for a cell which has interface_timing attribute set to true. This function attribute will be ignored. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib)
+[07/18 09:51:57     12s] Read 1 cells in library sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1320):	The user-defined attribute 'related_spice_node' is not present in any of the 'ccsn_first_stage' group. This attribute is required for Tempus if SPICE correlation of ROP glitch needs to be performed. The missing attribute does not affect SI delay or glitch analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_ff_ff_n40C_1v95_5v50.lib, Line 18)
+[07/18 09:51:57     12s] **WARN: (TECHLIB-1320):	The user-defined attribute 'related_spice_node' is not present in any of the 'ccsn_first_stage' group. This attribute is required for Tempus if SPICE correlation of ROP glitch needs to be performed. The missing attribute does not affect SI delay or glitch analysis. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib, Line 1)
+[07/18 09:51:57     12s] Library reading multithread flow ended. (File /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib)
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_fd_sc_hd__nom.tlef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_fd_sc_hd.lef ...
+[07/18 09:51:57     12s] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+[07/18 09:51:57     12s] The NOWIREEXTENSIONATPIN statement will be ignored. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_fd_sc_hd.lef at line 2.
+[07/18 09:51:57     12s] **WARN: (IMPLF-108):	There is no overlap layer defined in any LEF file
+[07/18 09:51:57     12s] so you are unable to create rectilinear partition in a hierarchical flow.
+[07/18 09:51:57     12s] Set DBUPerIGU to M1 pitch 460.
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_ef_io.lef ...
+[07/18 09:51:57     12s] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+[07/18 09:51:57     12s] The NOWIREEXTENSIONATPIN statement will be ignored. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_ef_io.lef at line 2.
+[07/18 09:51:57     12s] **ERROR: (IMPLF-24):	Pin 'VSSIO' defined multiple times in same cell 'sky130_ef_io__vssa_hvc_clamped_pad', pin geometry that defined after first occurrence will be skipped.
+[07/18 09:51:57     12s] **ERROR: (IMPLF-24):	Pin 'VSSIO' defined multiple times in same cell 'sky130_ef_io__vssa_hvc_pad', pin geometry that defined after first occurrence will be skipped.
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_fd_io.lef ...
+[07/18 09:51:57     12s] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+[07/18 09:51:57     12s] The NOWIREEXTENSIONATPIN statement will be ignored. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sky130_fd_io.lef at line 2.
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_1024x32m8w8.lef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_64x32m4w32.lef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_1024x32m8w32.lef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_512x32m4w32.lef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_2048x32m8w8.lef ...
+[07/18 09:51:57     12s] 
+[07/18 09:51:57     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_512x32m4w8.lef ...
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_4096x32m8w8.lef ...
+[07/18 09:51:58     12s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_4096x32m8w8.lef at line 1.
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_64x4m4w2.lef ...
+[07/18 09:51:58     12s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_64x4m4w2.lef at line 1.
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_256x32m4w8.lef ...
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_4096x8m8w8.lef ...
+[07/18 09:51:58     12s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_4096x8m8w8.lef at line 1.
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_64x32m4w8.lef ...
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_64x24m4w24.lef ...
+[07/18 09:51:58     12s] 
+[07/18 09:51:58     12s] Loading LEF file /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/libs/lef/sram22_512x64m4w8.lef ...
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[0]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[1]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[2]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[3]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[4]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[5]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[6]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[7]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'addr[8]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'clk' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[0]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[10]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[11]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[12]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[13]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[14]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[15]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[16]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[17]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-200):	Pin 'din[18]' in macro 'sram22_512x64m4w8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-200' for more detail.
+[07/18 09:51:58     13s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[07/18 09:51:58     13s] To increase the message display limit, refer to the product command reference manual.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[0]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[10]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[11]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[12]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[13]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[14]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[15]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[16]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[17]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[18]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[19]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[1]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[20]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[21]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[22]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[23]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[24]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[25]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[26]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (IMPLF-201):	Pin 'dout[27]' in macro 'sram22_512x64m4w8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/18 09:51:58     13s] Type 'man IMPLF-201' for more detail.
+[07/18 09:51:58     13s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[07/18 09:51:58     13s] To increase the message display limit, refer to the product command reference manual.
+[07/18 09:51:58     13s] 
+[07/18 09:51:58     13s] viaInitial starts at Thu Jul 18 09:51:58 2024
+[07/18 09:51:58     13s] viaInitial ends at Thu Jul 18 09:51:58 2024
+[07/18 09:51:58     13s] Loading view definition file from latest/viewDefinition.tcl
+[07/18 09:51:58     13s] % Begin Load netlist data ... (date=07/18 09:51:58, mem=610.2M)
+[07/18 09:51:58     13s] *** Begin netlist parsing (mem=709.2M) ***
+[07/18 09:51:58     13s] Pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped3_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VCCD_PAD' of cell 'sky130_ef_io__vccd_lvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VDDA_PAD' of cell 'sky130_ef_io__vdda_hvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VDDIO_PAD' of cell 'sky130_ef_io__vddio_hvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VSSA_PAD' of cell 'sky130_ef_io__vssa_hvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VSSD_PAD' of cell 'sky130_ef_io__vssd_lvc_clamped3_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VSSD_PAD' of cell 'sky130_ef_io__vssd_lvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Pin 'VSSIO_PAD' of cell 'sky130_ef_io__vssio_hvc_clamped_pad' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[07/18 09:51:58     13s] Created 456 new cells from 45 timing libraries.
+[07/18 09:51:58     13s] Reading netlist ...
+[07/18 09:51:58     13s] Backslashed names will retain backslash and a trailing blank character.
+[07/18 09:51:58     13s] Reading verilogBinary netlist '/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/latest/riscv_top.v.bin'
+[07/18 09:51:58     13s] Reading binary database version 1
+[07/18 09:51:58     13s] 
+[07/18 09:51:58     13s] *** Memory Usage v#1 (Current mem = 722.246M, initial mem = 266.562M) ***
+[07/18 09:51:58     13s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=722.2M) ***
+[07/18 09:51:58     13s] % End Load netlist data ... (date=07/18 09:51:58, total cpu=0:00:00.0, real=0:00:00.0, peak res=631.5M, current mem=631.5M)
+[07/18 09:51:58     13s] Set top cell to riscv_top.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sedfxtp_4' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sedfxtp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sedfxtp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sedfxbp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sedfxbp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdlclkp_4' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdlclkp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdlclkp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfxtp_4' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfxtp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfxtp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfxbp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfxbp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_4' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_4' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfstp_1' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (IMPTS-419):	Timing arc(s) mismatch found in cell 'sky130_fd_sc_hd__sdfsbp_2' of timing library 'sky130_fd_sc_hd__ss_100C_1v60(ss_100C_1v60.setup_set)' and 'sky130_fd_sc_hd__ff_n40C_1v95(ff_n40C_1v95.hold_set)'.
+[07/18 09:51:59     13s] **WARN: (EMS-27):	Message (IMPTS-419) has exceeded the current message display limit of 20.
+[07/18 09:51:59     13s] To increase the message display limit, refer to the product command reference manual.
+[07/18 09:51:59     13s] Hooked 899 DB cells to tlib cells.
+[07/18 09:51:59     13s] ** Removed 3 unused lib cells.
+[07/18 09:51:59     13s] Starting recursive module instantiation check.
+[07/18 09:51:59     13s] No recursion found.
+[07/18 09:51:59     13s] Building hierarchical netlist for Cell riscv_top ...
+[07/18 09:51:59     13s] *** Netlist is unique.
+[07/18 09:51:59     13s] Setting Std. cell height to 2720 DBU (smallest netlist inst).
+[07/18 09:51:59     13s] ** info: there are 1048 modules.
+[07/18 09:51:59     13s] ** info: there are 10233 stdCell insts.
+[07/18 09:51:59     13s] ** info: there are 10 macros.
+[07/18 09:51:59     13s] 
+[07/18 09:51:59     13s] *** Memory Usage v#1 (Current mem = 746.660M, initial mem = 266.562M) ***
+[07/18 09:51:59     13s] *info: set bottom ioPad orient R0
+[07/18 09:51:59     13s] **WARN: (IMPFP-3961):	The techSite 'unithddbl' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/18 09:51:59     13s] Type 'man IMPFP-3961' for more detail.
+[07/18 09:51:59     13s] Adjust met3 preferred direction offset from 0.34 to 0.17.
+[07/18 09:51:59     13s] Adjust met4 preferred direction offset from 0.46 to 0.23.
+[07/18 09:51:59     13s] Adjust met5 preferred direction offset from 1.7 to 0.17.
+[07/18 09:51:59     13s] Generated pitch 3.66 in met5 is different from 3.4 defined in technology file in preferred direction.
+[07/18 09:51:59     13s] Generated pitch 0.69 in met4 is different from 0.92 defined in technology file in preferred direction.
+[07/18 09:51:59     13s] Generated pitch 0.61 in met3 is different from 0.68 defined in technology file in preferred direction.
+[07/18 09:51:59     13s] Set Default Net Delay as 1000 ps.
+[07/18 09:51:59     13s] Set Default Net Load as 0.5 pF. 
+[07/18 09:51:59     13s] Set Default Input Pin Transition as 0.1 ps.
+[07/18 09:51:59     13s] Loading preference file latest/gui.pref.tcl ...
+[07/18 09:51:59     13s] 
+[07/18 09:51:59     13s] 
+[07/18 09:51:59     13s] Applying the recommended capacitance filtering threshold values for 130nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.4.
+[07/18 09:51:59     13s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[07/18 09:51:59     13s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[07/18 09:51:59     13s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'standard'.
+[07/18 09:51:59     13s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode is 'low'.
+[07/18 09:51:59     13s] Updating process node dependent CCOpt properties for the 130nm process node.
+[07/18 09:51:59     13s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[07/18 09:51:59     13s] Global stripes will break 2.000000 user units from obstructed blocks.
+[07/18 09:51:59     13s] The power planner will set stripe antenna targets to stripe.
+[07/18 09:51:59     13s] Extraction setup Delayed 
+[07/18 09:51:59     13s] *Info: initialize multi-corner CTS.
+[07/18 09:51:59     13s] Reading timing constraints file '/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/mmmc/modes/my_constraint_mode/my_constraint_mode.sdc' ...
+[07/18 09:51:59     13s] Current (total cpu=0:00:13.8, real=0:01:21, peak res=832.6M, current mem=824.7M)
+[07/18 09:51:59     13s] riscv_top
+[07/18 09:51:59     13s] INFO (CTE): Constraints read successfully.
+[07/18 09:51:59     13s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=842.1M, current mem=842.1M)
+[07/18 09:51:59     13s] Current (total cpu=0:00:13.9, real=0:01:21, peak res=842.1M, current mem=842.1M)
+[07/18 09:51:59     13s] Reading latency file '/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/mmmc/views/ss_100C_1v60.setup_view/latency.sdc' ...
+[07/18 09:51:59     13s] Reading latency file '/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/post_write_design/mmmc/views/ff_n40C_1v95.hold_view/latency.sdc' ...
+[07/18 09:51:59     13s] Creating Cell Server ...(0, 1, 1, 1)
+[07/18 09:51:59     13s] Summary for sequential cells identification: 
+[07/18 09:51:59     13s]   Identified SBFF number: 45
+[07/18 09:51:59     13s]   Identified MBFF number: 0
+[07/18 09:51:59     13s]   Identified SB Latch number: 0
+[07/18 09:51:59     13s]   Identified MB Latch number: 0
+[07/18 09:51:59     13s]   Not identified SBFF number: 0
+[07/18 09:51:59     13s]   Not identified MBFF number: 0
+[07/18 09:51:59     13s]   Not identified SB Latch number: 0
+[07/18 09:51:59     13s]   Not identified MB Latch number: 0
+[07/18 09:51:59     13s]   Number of sequential cells which are not FFs: 23
+[07/18 09:51:59     13s] Total number of combinational cells: 329
+[07/18 09:51:59     13s] Total number of sequential cells: 68
+[07/18 09:51:59     13s] Total number of tristate cells: 13
+[07/18 09:51:59     13s] Total number of level shifter cells: 7
+[07/18 09:51:59     13s] Total number of power gating cells: 0
+[07/18 09:51:59     13s] Total number of isolation cells: 11
+[07/18 09:51:59     13s] Total number of power switch cells: 0
+[07/18 09:51:59     13s] Total number of pulse generator cells: 0
+[07/18 09:51:59     13s] Total number of always on buffers: 0
+[07/18 09:51:59     13s] Total number of retention cells: 0
+[07/18 09:51:59     13s] List of usable buffers: sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_12 sky130_fd_sc_hd__buf_16 sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_4 sky130_fd_sc_hd__buf_6 sky130_fd_sc_hd__buf_8 sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_16 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__dlymetal6s2s_1 sky130_fd_sc_hd__probec_p_8 sky130_fd_sc_hd__probe_p_8
+[07/18 09:51:59     13s] Total number of usable buffers: 15
+[07/18 09:51:59     13s] List of unusable buffers:[07/18 09:51:59     13s] Creating Cell Server, finished. 
+[07/18 09:51:59     13s] 
+
+[07/18 09:51:59     13s] Total number of unusable buffers: 0
+[07/18 09:51:59     13s] List of usable inverters: sky130_fd_sc_hd__bufinv_16 sky130_fd_sc_hd__clkinv_1 sky130_fd_sc_hd__bufinv_8 sky130_fd_sc_hd__clkinv_16 sky130_fd_sc_hd__clkinv_2 sky130_fd_sc_hd__clkinv_4 sky130_fd_sc_hd__clkinv_8 sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__clkinvlp_2 sky130_fd_sc_hd__clkinvlp_4 sky130_fd_sc_hd__inv_12 sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_2 sky130_fd_sc_hd__inv_4 sky130_fd_sc_hd__inv_6 sky130_fd_sc_hd__inv_8
+[07/18 09:51:59     13s] Total number of usable inverters: 16
+[07/18 09:51:59     13s] List of unusable inverters:
+[07/18 09:51:59     13s] Total number of unusable inverters: 0
+[07/18 09:51:59     13s] List of identified usable delay cells: sky130_fd_sc_hd__bufbuf_16 sky130_fd_sc_hd__bufbuf_8 sky130_fd_sc_hd__clkdlybuf4s15_1 sky130_fd_sc_hd__clkdlybuf4s15_2 sky130_fd_sc_hd__clkdlybuf4s18_1 sky130_fd_sc_hd__clkdlybuf4s18_2 sky130_fd_sc_hd__clkdlybuf4s25_1 sky130_fd_sc_hd__clkdlybuf4s50_1 sky130_fd_sc_hd__clkdlybuf4s25_2 sky130_fd_sc_hd__clkdlybuf4s50_2 sky130_fd_sc_hd__dlygate4sd2_1 sky130_fd_sc_hd__dlygate4sd1_1 sky130_fd_sc_hd__dlygate4sd3_1 sky130_fd_sc_hd__dlymetal6s6s_1 sky130_fd_sc_hd__dlymetal6s4s_1
+[07/18 09:51:59     13s] Total number of identified usable delay cells: 15
+[07/18 09:51:59     13s] List of identified unusable delay cells:
+[07/18 09:51:59     13s] Total number of identified unusable delay cells: 0
+[07/18 09:51:59     13s] Deleting Cell Server ...
+[07/18 09:51:59     13s] Reading floorplan file - latest/riscv_top.fp.gz (mem = 955.9M).
+[07/18 09:51:59     13s] % Begin Load floorplan data ... (date=07/18 09:51:59, mem=864.2M)
+[07/18 09:51:59     13s] 2024/07/18 09:51:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:51:59     13s] 2024/07/18 09:51:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:51:59     13s] *info: reset 11512 existing net BottomPreferredLayer and AvoidDetour
+[07/18 09:51:59     13s] net ignore based on current view = 0
+[07/18 09:51:59     13s] Deleting old partition specification.
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:52:00     13s] Set FPlanBox to (0 0 1800000 1800000)
+[07/18 09:52:00     13s] Adjust met3 preferred direction offset from 0.34 to 0.17.
+[07/18 09:52:00     13s] Adjust met4 preferred direction offset from 0.46 to 0.23.
+[07/18 09:52:00     13s] Adjust met5 preferred direction offset from 1.7 to 0.17.
+[07/18 09:52:00     13s] Generated pitch 3.66 in met5 is different from 3.4 defined in technology file in preferred direction.
+[07/18 09:52:00     13s] Generated pitch 0.69 in met4 is different from 0.92 defined in technology file in preferred direction.
+[07/18 09:52:00     13s] Generated pitch 0.61 in met3 is different from 0.68 defined in technology file in preferred direction.
+[07/18 09:52:00     13s] There are 6 members in group AO.
+[07/18 09:52:00     13s]  ... processed partition successfully.
+[07/18 09:52:00     13s] Reading binary special route file latest/riscv_top.fp.spr.gz (Created by Innovus v18.10-p002_1 on Wed Jun 26 03:14:45 2024, version: 1)
+[07/18 09:52:00     13s] There are 301 nets with weight being set
+[07/18 09:52:00     13s] There are 301 nets with bottomPreferredRoutingLayer being set
+[07/18 09:52:00     13s] There are 301 nets with avoidDetour being set
+[07/18 09:52:00     13s] Extracting standard cell pins and blockage ...... 
+[07/18 09:52:00     13s] Pin and blockage extraction finished
+[07/18 09:52:00     13s] Delete all existing relative floorplan constraints.
+[07/18 09:52:00     13s] % End Load floorplan data ... (date=07/18 09:52:00, total cpu=0:00:00.1, real=0:00:01.0, peak res=870.3M, current mem=870.3M)
+[07/18 09:52:00     13s] Reading congestion map file latest/riscv_top.route.congmap.gz ...
+[07/18 09:52:00     13s] % Begin Load SymbolTable ... (date=07/18 09:52:00, mem=870.3M)
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:52:00     13s] 2024/07/18 09:52:00 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:52:00     13s] routingBox: (-920 -3400) (1800920 1803400)
+[07/18 09:52:00     13s] Suppress "**WARN ..." messages.
+[07/18 09:52:00     13s] coreBox:    (0 0) (1800000 1800000)
+[07/18 09:52:00     13s] Un-suppress "**WARN ..." messages.
+[07/18 09:52:00     15s] % End Load SymbolTable ... (date=07/18 09:52:00, total cpu=0:00:01.3, real=0:00:00.0, peak res=897.5M, current mem=895.8M)
+[07/18 09:52:00     15s] Loading place ...
+[07/18 09:52:00     15s] % Begin Load placement data ... (date=07/18 09:52:00, mem=895.8M)
+[07/18 09:52:00     15s] Reading placement file - latest/riscv_top.place.gz.
+[07/18 09:52:00     15s] *** Checked 28 GNC rules.
+[07/18 09:52:00     15s] *** applyConnectGlobalNets disabled.
+[07/18 09:52:00     15s] ** Reading stdCellPlacement_binary (Created by Innovus v18.10-p002_1 on Wed Jun 26 03:14:45 2024, version# 2) ...
+[07/18 09:52:00     15s] *** Checked 28 GNC rules.
+[07/18 09:52:00     15s] *** applyConnectGlobalNets disabled.
+[07/18 09:52:00     15s] *** Completed restorePlace (cpu=0:00:00.5 real=0:00:00.0 mem=1049.4M) ***
+[07/18 09:52:00     15s] Total net length = 1.054e+06 (5.117e+05 5.424e+05) (ext = 2.797e+05)
+[07/18 09:52:00     15s] % End Load placement data ... (date=07/18 09:52:00, total cpu=0:00:00.5, real=0:00:00.0, peak res=964.0M, current mem=964.0M)
+[07/18 09:52:00     15s] *** Checked 28 GNC rules.
+[07/18 09:52:00     15s] *** Applying global-net connections...
+[07/18 09:52:01     15s] **ERROR: (IMPDB-1221):	A global net connection rule was specified to connect power pins with the name pattern 'VDD' to a global net.  But the connections cannot be made because there is no such power pin with name matching the pattern in any cell.  Check the pin name pattern and make sure it is correct.
+[07/18 09:52:01     15s] **ERROR: (IMPDB-1221):	A global net connection rule was specified to connect ground pins with the name pattern 'VSS' to a global net.  But the connections cannot be made because there is no such ground pin with name matching the pattern in any cell.  Check the pin name pattern and make sure it is correct.
+[07/18 09:52:01     15s] *** Applied 28 GNC rules (cpu = 0:00:00.2)
+[07/18 09:52:01     15s] % Begin Load routing data ... (date=07/18 09:52:01, mem=969.4M)
+[07/18 09:52:01     15s] Reading routing file - latest/riscv_top.route.gz.
+[07/18 09:52:01     15s] 2024/07/18 09:52:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:52:01     15s] 2024/07/18 09:52:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:52:01     15s] Reading Innovus routing data (Created by Innovus v18.10-p002_1 on Wed Jun 26 03:14:45 2024 Format: 18.1) ...
+[07/18 09:52:01     16s] *** Total 10717 nets are successfully restored.
+[07/18 09:52:01     16s] *** Completed restoreRoute (cpu=0:00:00.2 real=0:00:00.0 mem=1102.4M) ***
+[07/18 09:52:01     16s] % End Load routing data ... (date=07/18 09:52:01, total cpu=0:00:00.2, real=0:00:00.0, peak res=1017.9M, current mem=1017.9M)
+[07/18 09:52:01     16s] Loading Drc markers ...
+[07/18 09:52:01     16s] 2024/07/18 09:52:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+[07/18 09:52:01     16s] 2024/07/18 09:52:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+[07/18 09:52:01     16s] ... 16 markers are loaded ...
+[07/18 09:52:01     16s] ... 16 geometry drc markers are loaded ...
+[07/18 09:52:01     16s] ... 0 antenna drc markers are loaded ...
+[07/18 09:52:01     16s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[07/18 09:52:01     16s] Reading property file latest/riscv_top.prop
+[07/18 09:52:01     16s] *** Completed restoreProperty (cpu=0:00:00.1 real=0:00:00.0 mem=1096.4M) ***
+[07/18 09:52:01     16s] Restoring CPF database ...
+[07/18 09:52:01     16s] Creating Cell Server ...(0, 1, 1, 1)
+[07/18 09:52:01     16s] Summary for sequential cells identification: 
+[07/18 09:52:01     16s]   Identified SBFF number: 45
+[07/18 09:52:01     16s]   Identified MBFF number: 0
+[07/18 09:52:01     16s]   Identified SB Latch number: 0
+[07/18 09:52:01     16s]   Identified MB Latch number: 0
+[07/18 09:52:01     16s]   Not identified SBFF number: 0
+[07/18 09:52:01     16s]   Not identified MBFF number: 0
+[07/18 09:52:01     16s]   Not identified SB Latch number: 0
+[07/18 09:52:01     16s]   Not identified MB Latch number: 0
+[07/18 09:52:01     16s]   Number of sequential cells which are not FFs: 23
+[07/18 09:52:01     16s] Total number of combinational cells: 319
+[07/18 09:52:01     16s] Total number of sequential cells: 68
+[07/18 09:52:01     16s] Total number of tristate cells: 13
+[07/18 09:52:01     16s] Total number of level shifter cells: 7
+[07/18 09:52:01     16s] Total number of power gating cells: 0
+[07/18 09:52:01     16s] Total number of isolation cells: 0
+[07/18 09:52:01     16s] Total number of power switch cells: 0
+[07/18 09:52:01     16s] Total number of pulse generator cells: 0
+[07/18 09:52:01     16s] Total number of always on buffers: 10
+[07/18 09:52:01     16s] Total number of retention cells: 0
+[07/18 09:52:01     16s] List of usable buffers: sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_12 sky130_fd_sc_hd__buf_16 sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_4 sky130_fd_sc_hd__buf_6 sky130_fd_sc_hd__buf_8 sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_16 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__dlymetal6s2s_1
+[07/18 09:52:01     16s] Total number of usable buffers: 13
+[07/18 09:52:01     16s] List of unusable buffers:[07/18 09:52:01     16s] Creating Cell Server, finished. 
+[07/18 09:52:01     16s] 
+ sky130_fd_sc_hd__probec_p_8 sky130_fd_sc_hd__probe_p_8
+[07/18 09:52:01     16s] Total number of unusable buffers: 2
+[07/18 09:52:01     16s] List of usable inverters: sky130_fd_sc_hd__bufinv_16 sky130_fd_sc_hd__clkinv_1 sky130_fd_sc_hd__bufinv_8 sky130_fd_sc_hd__clkinv_16 sky130_fd_sc_hd__clkinv_2 sky130_fd_sc_hd__clkinv_4 sky130_fd_sc_hd__clkinv_8 sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__clkinvlp_2 sky130_fd_sc_hd__clkinvlp_4 sky130_fd_sc_hd__inv_12 sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_2 sky130_fd_sc_hd__inv_4 sky130_fd_sc_hd__inv_6 sky130_fd_sc_hd__inv_8
+[07/18 09:52:01     16s] Total number of usable inverters: 16
+[07/18 09:52:01     16s] List of unusable inverters:
+[07/18 09:52:01     16s] Total number of unusable inverters: 0
+[07/18 09:52:01     16s] List of identified usable delay cells: sky130_fd_sc_hd__bufbuf_16 sky130_fd_sc_hd__bufbuf_8 sky130_fd_sc_hd__clkdlybuf4s15_1 sky130_fd_sc_hd__clkdlybuf4s15_2 sky130_fd_sc_hd__clkdlybuf4s18_1 sky130_fd_sc_hd__clkdlybuf4s18_2 sky130_fd_sc_hd__clkdlybuf4s25_1 sky130_fd_sc_hd__clkdlybuf4s50_1 sky130_fd_sc_hd__clkdlybuf4s25_2 sky130_fd_sc_hd__clkdlybuf4s50_2 sky130_fd_sc_hd__dlygate4sd2_1 sky130_fd_sc_hd__dlygate4sd1_1 sky130_fd_sc_hd__dlygate4sd3_1 sky130_fd_sc_hd__dlymetal6s6s_1 sky130_fd_sc_hd__dlymetal6s4s_1
+[07/18 09:52:01     16s] Total number of identified usable delay cells: 15
+[07/18 09:52:01     16s] List of identified unusable delay cells:
+[07/18 09:52:01     16s] Total number of identified unusable delay cells: 0
+[07/18 09:52:01     16s] Deleting Cell Server ...
+[07/18 09:52:01     16s] Verifying CPF level_shifter rules ...
+[07/18 09:52:01     16s] Verifying CPF isolation rules ...
+[07/18 09:52:01     16s] -noImplicitRules false                     # bool, default=false, private
+[07/18 09:52:01     16s] No isolation cell in libraries.
+[07/18 09:52:01     16s] No level shifter cell in libraries.
+[07/18 09:52:01     16s] **WARN: (IMPMSMV-3502):	Power net VPWR is not associated with any power domain. It is probably because this power net is not specified as any domain's primary power net. You need to modify CPF to create a virtual power domain using 'create_power_domain' without -instances and -default options then specify this power net as its primary power net using 'update_power_domain'.
+[07/18 09:52:01     16s] Type 'man IMPMSMV-3502' for more detail.
+[07/18 09:52:01     16s] INFO: Power domain of power net VPWR is set to AO.
+[07/18 09:52:01     16s] 	To fix this in IEEE1801, specify a supply_set of this power net and a ground net so that an internal power domain will be created for this power net
+[07/18 09:52:01     16s] **WARN: (IMPMSMV-3502):	Power net vdd is not associated with any power domain. It is probably because this power net is not specified as any domain's primary power net. You need to modify CPF to create a virtual power domain using 'create_power_domain' without -instances and -default options then specify this power net as its primary power net using 'update_power_domain'.
+[07/18 09:52:01     16s] Type 'man IMPMSMV-3502' for more detail.
+[07/18 09:52:01     16s] INFO: Power domain of power net vdd is set to AO.
+[07/18 09:52:01     16s] 	To fix this in IEEE1801, specify a supply_set of this power net and a ground net so that an internal power domain will be created for this power net
+[07/18 09:52:01     16s] restoreCpf: cpu=0:00:00.26 real=0:01:06.76
+[07/18 09:52:01     16s] % Begin Load power constraints ... (date=07/18 09:52:01, mem=1079.3M)
+[07/18 09:52:01     16s] source latest/riscv_top_power_constraints.tcl
+[07/18 09:52:01     16s] 'set_default_switching_activity' finished successfully.
+[07/18 09:52:01     16s] % End Load power constraints ... (date=07/18 09:52:01, total cpu=0:00:00.0, real=0:00:00.0, peak res=1079.3M, current mem=1079.3M)
+[07/18 09:52:01     16s] Start generating vias ...
+[07/18 09:52:02     16s] #Skip building auto via since it is not turned on.
+[07/18 09:52:02     16s] Via generation completed.
+[07/18 09:52:02     16s] Extraction setup called explicitly through PreRoutePatternsIfNeeded call.
+[07/18 09:52:02     16s] Extraction setup Started 
+[07/18 09:52:02     16s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers POLY and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 12.8 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.125 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.125 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.047 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.047 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.0285 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers POLY and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[07/18 09:52:02     16s] Type 'man IMPEXT-2773' for more detail.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 12.8 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.125 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.125 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.047 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.047 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.0285 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[07/18 09:52:02     16s] Summary of Active RC-Corners : 
+[07/18 09:52:02     16s]  
+[07/18 09:52:02     16s]  Analysis View: ss_100C_1v60.setup_view
+[07/18 09:52:02     16s]     RC-Corner Name        : ss_100C_1v60.setup_rc
+[07/18 09:52:02     16s]     RC-Corner Index       : 0
+[07/18 09:52:02     16s]     RC-Corner Temperature : 100 Celsius
+[07/18 09:52:02     16s]     RC-Corner Cap Table   : ''
+[07/18 09:52:02     16s]     RC-Corner PreRoute Res Factor         : 1
+[07/18 09:52:02     16s]     RC-Corner PreRoute Cap Factor         : 1
+[07/18 09:52:02     16s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+[07/18 09:52:02     16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+[07/18 09:52:02     16s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[07/18 09:52:02     16s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[07/18 09:52:02     16s]  
+[07/18 09:52:02     16s]  Analysis View: ff_n40C_1v95.hold_view
+[07/18 09:52:02     16s]     RC-Corner Name        : ff_n40C_1v95.hold_rc
+[07/18 09:52:02     16s]     RC-Corner Index       : 1
+[07/18 09:52:02     16s]     RC-Corner Temperature : -40 Celsius
+[07/18 09:52:02     16s]     RC-Corner Cap Table   : ''
+[07/18 09:52:02     16s]     RC-Corner PreRoute Res Factor         : 1
+[07/18 09:52:02     16s]     RC-Corner PreRoute Cap Factor         : 1
+[07/18 09:52:02     16s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[07/18 09:52:02     16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+[07/18 09:52:02     16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+[07/18 09:52:02     16s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[07/18 09:52:02     16s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[07/18 09:52:02     16s] Initializing multi-corner resistance tables ...
+[07/18 09:52:02     16s] Global stripes will break 2.000000 user units from obstructed blocks.
+[07/18 09:52:02     16s] The power planner will set stripe antenna targets to stripe.
+[07/18 09:52:02     16s] 
+[07/18 09:52:02     16s] % Begin load AAE data ... (date=07/18 09:52:02, mem=1016.1M)
+[07/18 09:52:02     16s] AAE DB initialization (MEM=1133.46 CPU=0:00:00.1 REAL=0:00:00.0) 
+[07/18 09:52:02     16s] % End load AAE data ... (date=07/18 09:52:02, total cpu=0:00:00.1, real=0:00:00.0, peak res=1024.6M, current mem=1024.6M)
+[07/18 09:52:02     16s] Restoring CCOpt config...
+[07/18 09:52:02     16s] Creating Cell Server ...(0, 0, 0, 0)
+[07/18 09:52:02     16s] Summary for sequential cells identification: 
+[07/18 09:52:02     16s]   Identified SBFF number: 45
+[07/18 09:52:02     16s]   Identified MBFF number: 0
+[07/18 09:52:02     16s]   Identified SB Latch number: 0
+[07/18 09:52:02     16s]   Identified MB Latch number: 0
+[07/18 09:52:02     16s]   Not identified SBFF number: 0
+[07/18 09:52:02     16s]   Not identified MBFF number: 0
+[07/18 09:52:02     16s]   Not identified SB Latch number: 0
+[07/18 09:52:02     16s]   Not identified MB Latch number: 0
+[07/18 09:52:02     16s]   Number of sequential cells which are not FFs: 23
+[07/18 09:52:02     16s]  Visiting view : ss_100C_1v60.setup_view
+[07/18 09:52:02     16s]    : PowerDomain = AO : Weighted F : unweighted  = 66.90 (1.000) with rcCorner = 0
+[07/18 09:52:02     16s]    : PowerDomain = AO : Weighted F : unweighted  = 52.70 (1.000) with rcCorner = -1
+[07/18 09:52:02     16s]  Visiting view : ff_n40C_1v95.hold_view
+[07/18 09:52:02     16s]    : PowerDomain = AO : Weighted F : unweighted  = 28.70 (1.000) with rcCorner = 1
+[07/18 09:52:02     16s]    : PowerDomain = AO : Weighted F : unweighted  = 22.30 (1.000) with rcCorner = -1
+[07/18 09:52:02     16s]  Setting StdDelay to 66.90
+[07/18 09:52:02     16s] Creating Cell Server, finished. 
+[07/18 09:52:02     16s] 
+[07/18 09:52:02     16s]   Extracting original clock gating for clk...
+[07/18 09:52:02     16s]     clock_tree clk contains 1496 sinks and 18 clock gates.
+[07/18 09:52:02     16s]     Extraction for clk complete.
+[07/18 09:52:02     16s]   Extracting original clock gating for clk done.
+[07/18 09:52:02     16s]   The skew group clk/my_constraint_mode was created. It contains 1496 sinks and 1 sources.
+[07/18 09:52:02     16s]   The skew group clk/my_constraint_mode was created. It contains 1496 sinks and 1 sources.
+[07/18 09:52:02     16s] Restoring CCOpt config done.
+[07/18 09:52:02     16s] Deleting Cell Server ...
+[07/18 09:52:02     16s] Creating Cell Server ...(0, 1, 1, 1)
+[07/18 09:52:02     16s] Summary for sequential cells identification: 
+[07/18 09:52:02     16s]   Identified SBFF number: 45
+[07/18 09:52:02     16s]   Identified MBFF number: 0
+[07/18 09:52:02     16s]   Identified SB Latch number: 0
+[07/18 09:52:02     16s]   Identified MB Latch number: 0
+[07/18 09:52:02     16s]   Not identified SBFF number: 0
+[07/18 09:52:02     16s]   Not identified MBFF number: 0
+[07/18 09:52:02     16s]   Not identified SB Latch number: 0
+[07/18 09:52:02     16s]   Not identified MB Latch number: 0
+[07/18 09:52:02     16s]   Number of sequential cells which are not FFs: 23
+[07/18 09:52:02     16s] Total number of combinational cells: 319
+[07/18 09:52:02     16s] Total number of sequential cells: 68
+[07/18 09:52:02     16s] Total number of tristate cells: 13
+[07/18 09:52:02     16s] Total number of level shifter cells: 7
+[07/18 09:52:02     16s] Total number of power gating cells: 0
+[07/18 09:52:02     16s] Total number of isolation cells: 0
+[07/18 09:52:02     16s] Total number of power switch cells: 0
+[07/18 09:52:02     16s] Total number of pulse generator cells: 0
+[07/18 09:52:02     16s] Total number of always on buffers: 10
+[07/18 09:52:02     16s] Total number of retention cells: 0
+[07/18 09:52:02     16s] List of usable buffers: sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_12 sky130_fd_sc_hd__buf_16 sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_4 sky130_fd_sc_hd__buf_6 sky130_fd_sc_hd__buf_8 sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_16 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__dlymetal6s2s_1
+[07/18 09:52:02     16s] Total number of usable buffers: 13
+[07/18 09:52:02     16s] List of unusable buffers:[07/18 09:52:02     16s] Creating Cell Server, finished. 
+[07/18 09:52:02     16s] 
+ sky130_fd_sc_hd__probec_p_8 sky130_fd_sc_hd__probe_p_8
+[07/18 09:52:02     16s] Total number of unusable buffers: 2
+[07/18 09:52:02     16s] List of usable inverters: sky130_fd_sc_hd__bufinv_16 sky130_fd_sc_hd__clkinv_1 sky130_fd_sc_hd__bufinv_8 sky130_fd_sc_hd__clkinv_16 sky130_fd_sc_hd__clkinv_2 sky130_fd_sc_hd__clkinv_4 sky130_fd_sc_hd__clkinv_8 sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__clkinvlp_2 sky130_fd_sc_hd__clkinvlp_4 sky130_fd_sc_hd__inv_12 sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_2 sky130_fd_sc_hd__inv_4 sky130_fd_sc_hd__inv_6 sky130_fd_sc_hd__inv_8
+[07/18 09:52:02     16s] Total number of usable inverters: 16
+[07/18 09:52:02     16s] List of unusable inverters:
+[07/18 09:52:02     16s] Total number of unusable inverters: 0
+[07/18 09:52:02     16s] List of identified usable delay cells: sky130_fd_sc_hd__bufbuf_16 sky130_fd_sc_hd__bufbuf_8 sky130_fd_sc_hd__clkdlybuf4s15_1 sky130_fd_sc_hd__clkdlybuf4s15_2 sky130_fd_sc_hd__clkdlybuf4s18_1 sky130_fd_sc_hd__clkdlybuf4s18_2 sky130_fd_sc_hd__clkdlybuf4s25_1 sky130_fd_sc_hd__clkdlybuf4s50_1 sky130_fd_sc_hd__clkdlybuf4s25_2 sky130_fd_sc_hd__clkdlybuf4s50_2 sky130_fd_sc_hd__dlygate4sd2_1 sky130_fd_sc_hd__dlygate4sd1_1 sky130_fd_sc_hd__dlygate4sd3_1 sky130_fd_sc_hd__dlymetal6s6s_1 sky130_fd_sc_hd__dlymetal6s4s_1
+[07/18 09:52:02     16s] Total number of identified usable delay cells: 15
+[07/18 09:52:02     16s] List of identified unusable delay cells:
+[07/18 09:52:02     16s] Total number of identified unusable delay cells: 0
+[07/18 09:52:02     16s] Deleting Cell Server ...
+[07/18 09:52:02     16s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version . They will be removed in the next release. 
+[07/18 09:52:02     16s] timing_enable_default_delay_arc
+[07/18 09:52:02     16s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[07/18 09:52:02     17s] #% End read_db load design ... (date=07/18 09:52:02, total cpu=0:00:08.3, real=0:00:06.0, peak res=1083.2M, current mem=1034.3M)
+[07/18 09:52:02     17s] 
+[07/18 09:52:02     17s] *** Summary of all messages that are not suppressed in this session:
+[07/18 09:52:02     17s] Severity  ID               Count  Summary                                  
+[07/18 09:52:02     17s] ERROR     IMPLF-24             2  Pin '%s' defined multiple times in same ...
+[07/18 09:52:02     17s] WARNING   IMPLF-200          709  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[07/18 09:52:02     17s] WARNING   IMPLF-201          509  Pin '%s' in macro '%s' has no ANTENNADIF...
+[07/18 09:52:02     17s] WARNING   IMPLF-108            1  There is no overlap layer defined in any...
+[07/18 09:52:02     17s] WARNING   IMPFP-3961           1  The techSite '%s' has no related standar...
+[07/18 09:52:02     17s] WARNING   IMPMSMV-3502         2  Power net %s is not associated with any ...
+[07/18 09:52:02     17s] WARNING   IMPTS-419          113  Timing arc(s) mismatch found in cell '%s...
+[07/18 09:52:02     17s] WARNING   IMPEXT-2766         12  The sheet resistance for layer %s is not...
+[07/18 09:52:02     17s] WARNING   IMPEXT-2773         12  The via resistance between layers %s and...
+[07/18 09:52:02     17s] ERROR     IMPDB-1221           2  A global net connection rule was specifi...
+[07/18 09:52:02     17s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[07/18 09:52:02     17s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[07/18 09:52:02     17s] WARNING   TECHLIB-302         20  No function defined for cell '%s'. The c...
+[07/18 09:52:02     17s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[07/18 09:52:02     17s] ERROR     TECHLIB-702         12  No pg_pin with name '%s' has been read i...
+[07/18 09:52:02     17s] WARNING   TECHLIB-905         14  Found a function attribute specified on ...
+[07/18 09:52:02     17s] WARNING   TECHLIB-1161         6  The library level attribute %s on line %...
+[07/18 09:52:02     17s] WARNING   TECHLIB-1320         4  The user-defined attribute '%s' is not p...
+[07/18 09:52:02     17s] WARNING   TECHLIB-1334        20  The group '%s' is not specified in the '...
+[07/18 09:52:02     17s] WARNING   TECHLIB-9153         6  Duplicate definition for attribute '%s' ...
+[07/18 09:52:02     17s] *** Message Summary: 1451 warning(s), 16 error(s)
+[07/18 09:52:02     17s] 
+[07/18 09:52:02     17s] #@ End verbose source /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/par-rundir/generated-scripts/open_chip.tcl
+[07/18 09:52:02     17s] @innovus 2> 

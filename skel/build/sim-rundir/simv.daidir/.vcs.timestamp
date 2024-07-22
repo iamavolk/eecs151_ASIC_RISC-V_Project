@@ -1,0 +1,265 @@
+8        
+0 const.vh
+0 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/etc/systemverilog/const.vh
+0 Opcode.vh
+0 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/etc/systemverilog/Opcode.vh
+0 util.vh
+0 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/etc/systemverilog/util.vh
+0 CacheStates.vh
+0 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/etc/systemverilog/CacheStates.vh
+89
++cli+4
++define+CLOCK_PERIOD=20.00
++define+DEBUG
++delay_mode_zero
++incdir+../../src
++itf+/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcsdp_lite.tab
++memcbk
++notimingcheck
++rad
++v2k
++vcs+initreg+random
++vcs+lic+wait
++vcsd1
++vpi
++vpi
++warn=noTMR
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -I$(VCS_HOME)/include -O -I/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic -Wl,-E
+-Mobjects= /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvirsim.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/liberrorinf.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libsnpsmalloc.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvfs.so
+-Mout=/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/sim-rundir/simv
+-Msaverestoreobj=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/include
+-Xcbug=0x1
+-Xnotice=1
+-debug=4
+-debug_access+all
+-error=PCWM-L
+-full64
+-gen_obj
+-lca
+-line
+-o /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/sim-rundir/simv
+-picarchive
+-q
+-sverilog
+-timescale=1ns/1ps
+-top
+/home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+/home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.v
+/home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.v
+/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/bin/vcs1
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/tech-sky130-cache/primitives.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/tech-sky130-cache/sky130_fd_sc_hd.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ALU.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/BranchComp.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Cache.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ControlDec.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/EECS151.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ExtMemModel.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ForwardingUnit.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ImmGen.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/InstrKillID.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/JALTargetID.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/MemLoadMask.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Memory151.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/PCSelect.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/RegFile.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Riscv151.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/StoreMask.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux2.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux3.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux4.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/no_cache_mem.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_arbiter.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_test_harness.v
+/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_top.v
+rocketTestHarness
+111
+which_declare=declare -f
+test_asm=xori.out
+_CE_M=
+_CE_CONDA=
+XML_CATALOG_FILES=file:///home/tmp/cs199-aly/conda/etc/xml/catalog file:///etc/xml/catalog
+XDG_SESSION_ID=3312
+XDG_RUNTIME_DIR=/run/user/120140
+XDG_DATA_DIRS=/home/aa/users/cs199-aly/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XA_HOME=/home/ff/eecs151/tools/xa/G-2012.06-SP2
+XA_64=1
+VMR_MODE_FLAG=64
+VIRTUAL_ENV_PROMPT=(venv_151) 
+VIRTUAL_ENV=/home/aa/users/cs199-aly/venv_151
+VERDI_HOME=/home/ff/eecs151/hammer-tools/synopsys/verdi/P-2019.06
+VCS_PATH=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/bin
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+UCB_VLSI_HOME=/home/ff/eecs151
+UCB_VLSI_HOME2=/home/ff/eecs151
+UCB_STDCELLS=synopsys-32nm/multi_vt
+TOOL_HOME=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64
+S_COLORS=auto
+SYNOPSYS_SYSTYPE=linux
+SYNOPSYS_ROOT=/home/ff/cs250/tools/synopsys
+SYNOPSYS_NCX_ROOT=/home/ff/eecs151/tools/ncx/G-2012.06-SP3
+STAR_HOME=/home/ff/eecs151/tools/starrcxt/G-2012.06-SP3
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=10.136.130.73 59984 128.32.42.152 22
+SSH_CLIENT=10.136.130.73 59984 22
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RUNAS=/share/b/runas/x86_64
+PT_PATH=/home/ff/cs250/tools/synopsys/pt/current/bin
+PT_HOME=/home/ff/cs250/tools/synopsys/pt/current
+OVA_UUM=0
+OS=Linux
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc48x
+OA_HOME=/share/instsww/cadence/IC617/oa_v22.50.095
+NCX_HOME=/home/ff/eecs151/tools/ncx/G-2012.06-SP3
+MW_PATH=/home/ff/cs250/tools/synopsys/mw/current/bin/AMD.64
+MW_HOME=/home/ff/cs250/tools/synopsys/mw/current
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MGLS_LICENSE_FILE=1717@bwrcflex-1.eecs.berkeley.edu:1717@bwrcflex-2.eecs.berkeley.edu
+MFLAGS=
+MAMBA_EXE=/home/tmp/cs199-aly/conda/bin/mamba
+MAKE_TERMOUT=/dev/pts/0
+MAKE_TERMERR=/dev/pts/0
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=1
+MAKEFLAGS= -- test_asm=xori.out
+LOADEDMODULES=
+LM_PROJECT=bwrc_users
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IPDK_SYN_28NM=/home/ff/eecs151/synopsys-32nm
+INV_PATH=/share/instsww/cadence/INNOVUS/bin
+INV_HOME=/share/instsww/cadence/INNOVUS
+INSTALLER_PATH=/home/ff/cs250/tools/synopsys/installer/current
+ICC_PATH=/home/ff/eecs151/tools/icc/bin
+ICC_HOME=/home/ff/eecs151/tools/icc
+HSP_HOME=/home/ff/eecs151/tools/hspice/G-2012.06-SP1/hspice
+HSPICE_HOME=/home/ff/eecs151/tools/hspice/G-2012.06-SP1
+HISTCONTROL=ignoredups
+HERCULES_HOME_DIR=/home/ff/eecs151/tools/hercules/B-2008.09-SP5
+HAMMER_DATABASE=/scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/sim-rundir/config_db_tmp.json
+GEN_PATH=/share/instsww/cadence/GENUS/bin
+GEN_HOME=/share/instsww/cadence/GENUS
+FORMALITY_HOME=/home/ff/cs250/tools/synopsys/fm/current
+FORMALITY_BIN=/home/ff/cs250/tools/synopsys/fm/current/bin
+DC_PATH=/share/instsww/synopsys/J-2014.09-SP3/bin
+DC_HOME=/share/instsww/synopsys/J-2014.09-SP3
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/120140/bus
+CVS_RSH=ssh
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/home/tmp/cs199-aly/conda/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/home/tmp/cs199-aly/conda
+CONDA_EXE=/home/tmp/cs199-aly/conda/bin/conda
+CONDA_DEFAULT_ENV=base
+CHISEL=/home/ff/cs250/install/chisel
+CDS_ROOT=/share/instsww/cadence/IC615.151
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=5280@license-srv.eecs.berkeley.edu
+CDS_INST_DIR=/share/instsww/cadence/IC615.151
+CDSHOME=/share/instsww/cadence/IC615.151
+CALIBRE_PATH=/share/instsww/mgc/calibre2017/aoi_cal_2017.4_19.14/bin
+CALIBRE_HOME=/share/instsww/mgc/calibre2017/aoi_cal_2017.4_19.14
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+ARCH=x86_64
+AGILEESOFD_LICENSE_FILE=27000@license-srv.eecs.berkeley.edu
+ADS_LICENSE_FILE=27000@license-srv.eecs.berkeley.edu
+0
+45
+1717301579 ../../src/CacheStates.vh
+1717301579 ../../src/util.vh
+1717301579 ../../src/Opcode.vh
+1717301579 ../../src/const.vh
+1698088451 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x64m4w8/sram22_512x64m4w8.v
+1698088451 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x24m4w24/sram22_64x24m4w24.v
+1698088452 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w8/sram22_64x32m4w8.v
+1698088448 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x8m8w8/sram22_4096x8m8w8.v
+1698088446 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_256x32m4w8/sram22_256x32m4w8.v
+1698088452 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x4m4w2/sram22_64x4m4w2.v
+1698088447 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_4096x32m8w8/sram22_4096x32m8w8.v
+1698088450 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w8/sram22_512x32m4w8.v
+1698088445 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_2048x32m8w8/sram22_2048x32m8w8.v
+1698088449 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_512x32m4w32/sram22_512x32m4w32.v
+1698088443 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w32/sram22_1024x32m8w32.v
+1698088451 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_64x32m4w32/sram22_64x32m4w32.v
+1698088444 /home/ff/eecs151/fa23/sky130_srams/sram22_sky130_macros_20231011/sram22_1024x32m8w8/sram22_1024x32m8w8.v
+1693696804 /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v
+1693696804 /home/ff/eecs151/fa23/pdk_mod/lab3/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+1719395852 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/tech-sky130-cache/sky130_fd_sc_hd.v
+1719395852 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/tech-sky130-cache/primitives.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/StoreMask.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/MemLoadMask.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/PCSelect.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ControlDec.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/JALTargetID.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/RegFile.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/InstrKillID.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ForwardingUnit.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ALU.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ImmGen.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/BranchComp.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/EECS151.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux4.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux3.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/mux2.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_test_harness.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_arbiter.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/riscv_top.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Cache.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/no_cache_mem.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/ExtMemModel.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Memory151.v
+1717301579 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/src/Riscv151.v
+1559359020 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcsdp_lite.tab
+4
+1559360489 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvirsim.so
+1559360051 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/liberrorinf.so
+1559360008 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libsnpsmalloc.so
+1559360050 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvfs.so
+1719395863 /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/sim-rundir/simv.daidir
+-1 partitionlib

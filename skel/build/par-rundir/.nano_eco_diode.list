@@ -1,0 +1,147 @@
+FORMATVERSION 1
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_1 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1289 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_2 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1289 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_3 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1289 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_4 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1280 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_5 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1283 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_6 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1274 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_7 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1325 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/rf2/DIODE_8 1 addPortAsNeeded
+INSTTERM DIODE cpu/rf2/n_1342 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/csr_reg/DIODE_9 1 addPortAsNeeded
+INSTTERM DIODE cpu/csr_reg/FE_OFN750_csr_X_22 -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/csr_reg/DIODE_10 1 addPortAsNeeded
+INSTTERM DIODE cpu/csr_X[25] -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/csr_reg/DIODE_11 1 addPortAsNeeded
+INSTTERM DIODE cpu/csr_X[30] -
+ADDINST sky130_fd_sc_hd__diode_2 cpu/csr_reg/DIODE_12 1 addPortAsNeeded
+INSTTERM DIODE cpu/csr_X[29] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_13 1 addPortAsNeeded
+INSTTERM DIODE mem/icache/sram_10_din[23] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_14 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6214_sram_00_dout_27 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_15 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5961_sram_10_dout_3 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_16 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5997_sram_10_dout_6 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_17 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5997_sram_10_dout_6 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_18 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5997_sram_10_dout_6 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_19 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5997_sram_10_dout_6 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_20 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5997_sram_10_dout_6 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_22 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6044_sram_10_dout_8 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_23 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN6281_sram_10_dout_10 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_24 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN5989_sram_10_dout_23 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_25 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[30] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_26 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[30] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_27 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[30] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_28 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[28] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_29 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[97] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_30 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[60] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_31 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[58] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_32 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[69] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_33 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[69] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_34 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[72] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_35 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[77] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_36 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[78] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_37 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[79] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_38 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[0] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_39 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[125] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_40 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[125] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_41 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[1] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_42 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[2] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_43 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[43] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_44 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[43] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_45 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[40] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_46 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[85] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_47 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[85] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_48 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[3] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_49 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[86] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_50 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[87] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_51 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[37] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_52 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[88] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_53 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[90] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_54 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[90] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_55 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[8] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_56 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[91] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_57 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[91] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_58 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[9] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_59 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[9] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_60 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[12] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_61 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[13] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_62 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[94] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_63 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[95] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_64 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[17] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_65 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[18] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_66 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[23] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_67 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[23] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_68 1 addPortAsNeeded
+INSTTERM DIODE mem_resp_data[25] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/icache/DIODE_69 1 addPortAsNeeded
+INSTTERM DIODE icache_addr[13] -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_70 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN1044_n_475 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_71 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN1055_n_486 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_72 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN1046_n_477 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_73 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN1052_n_483 -
+ADDINST sky130_fd_sc_hd__diode_2 mem/dcache/DIODE_74 1 addPortAsNeeded
+INSTTERM DIODE mem/dcache/FE_OFN1045_n_476 -

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+    <usage version="1.0.0">
+        <desc>Miscellaneous information</desc>
+    </usage>
+    <tool>
+        <name>Innovus</name>
+        <version>18.10-p002_1</version>
+    </tool>
+    <design>
+        <name>riscv_top</name>
+        <timestamp>Wed Jun 26 03:14:00 2024</timestamp>
+    </design>
+    <os>
+        <name>Linux</name>
+        <arch>x86_64</arch>
+        <host>eda-4.EECS.Berkeley.EDU</host>
+        <user>cs199-aly</user>
+    </os>
+</content>

@@ -1,0 +1,51 @@
+
+
+Working Directory = /scratch/cs199-aly/eecs151_ASIC_RISC-V_Project/skel/build/syn-rundir
+QoS Summary for riscv_top
+================================================================================
+Metric                          final          
+================================================================================
+Slack (ps):                       956
+  R2R (ps):                       956
+  I2R (ps):                     9,115
+  R2O (ps):                  no_value
+  I2O (ps):                  no_value
+  CG  (ps):                     1,332
+TNS (ps):                           0
+  R2R (ps):                         0
+  I2R (ps):                         0
+  R2O (ps):                  no_value
+  I2O (ps):                  no_value
+  CG  (ps):                         0
+Failing Paths:                      0
+Cell Area:                  1,078,472
+Total Cell Area:            1,078,472
+Leaf Instances:                 9,387
+Total Instances:                9,387
+Utilization (%):                 0.00
+Tot. Net Length (um):        no_value
+Avg. Net Length (um):        no_value
+Route Overflow H (%):        no_value
+Route Overflow V (%):        no_value
+MBCI(%) (bits/gate) :            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value
+  Tot Cong:                  no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:03:43
+Real Runtime (h:m:s):        00:02:47
+CPU  Elapsed (h:m:s):        00:03:43
+Real Elapsed (h:m:s):        00:02:47
+Memory (MB):                  1056.83
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:02:48
+Total Memory (MB):     1056.83
+Executable Version:    19.15-s090_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
