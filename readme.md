@@ -14,15 +14,26 @@ A complehhate RV32I processor in Verilog (IEEE 1995/2001 syntax) as part of the 
     - MEM/WB forwarding through the ALU into DCache control logic
 - Post-layout area:
     - CPU core: **72,203 µm²**
-    - SRAMs: **1.0178 mm²** (this showed me, a student, the hands-on version of the textbook tenet "area is dominated by memories")
+    - SRAMs: **1.0178 mm²** (the hands-on experience of the textbook tenet "floorplan is dominated by memories")
     - Top: **1.09 mm²**
 - Optimizations:
     - full bypassing
     - early JAL target handling
 
 <br>
+<details>
+<summary>
+    <strong>Simulation results</strong>
+</summary>
+
+![Assembly tests](assets/asm_tests.png)
+![Benchmark tests](assets/bmark_tests.png)
+
+</details>
+<br>
 
 ![RV32I four-stage pipeline](assets/rv32i_4pipe.png)
+
 
 ## Cache Design
 
